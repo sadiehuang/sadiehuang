@@ -141,3 +141,30 @@ header{padding-top:16px;padding-bottom:16px}
   .home-introduction .hero-name,.home-introduction.has-portraits .hero-name{left:6%;right:6%;bottom:88px;font-size:clamp(42px,10.5vw,70px)}
   .home-introduction .home-visual .hero-contact{left:6%;right:6%;bottom:50px;font-size:12px;gap:10px 16px}
 }
+
+/* Give the photography more room and read the toolkit as six compact rows. */
+.hero.home-introduction,.hero.home-introduction.has-portraits{grid-template-columns:3fr 2fr}
+.home-intro{padding-left:clamp(28px,3vw,52px);padding-right:clamp(28px,3vw,52px)}
+.home-introduction .hero-contact{position:static;margin:18px 0 0;font-size:13px;line-height:1.6;gap:10px 16px;color:var(--fg)}
+.home-introduction .hero-contact a{color:inherit;text-decoration-color:var(--muted)}
+.skills-panel .skill-groups{display:flex;flex-direction:column;gap:16px;margin-top:20px}
+.skills-panel .skill-group{display:grid;grid-template-columns:144px minmax(0,1fr);column-gap:14px;align-items:baseline}
+.skills-panel .skill-group h3{margin:0;line-height:1.6}
+.skills-panel .skill-group h3:after{content:':'}
+html[lang=zh] .skills-panel .skill-group h3:after{content:'：'}
+.skills-panel .skill-group p{margin:0;line-height:1.6}
+.home-introduction .hero-name,.home-introduction.has-portraits .hero-name{bottom:54px}
+@media(min-width:701px) and (max-width:1100px){
+  .hero.home-introduction,.hero.home-introduction.has-portraits{grid-template-columns:1.1fr 1fr}
+  .home-intro{padding-left:26px;padding-right:26px}
+  .skills-panel .skill-group{grid-template-columns:128px minmax(0,1fr);column-gap:12px}
+}
+@media(max-width:700px){
+  .hero.home-introduction,.hero.home-introduction.has-portraits{grid-template-columns:1fr}
+  .home-intro{padding-left:6%;padding-right:6%}
+  .home-introduction .hero-contact{margin-top:16px;font-size:12px;gap:10px 16px}
+  .skills-panel .skill-group{grid-template-columns:128px minmax(0,1fr);column-gap:12px}
+  .skills-panel .skill-group h3{font-size:13px}
+  .home-introduction .hero-name,.home-introduction.has-portraits .hero-name{bottom:58px}
+}
+@media(max-width:360px){.skills-panel .skill-group{grid-template-columns:118px minmax(0,1fr);column-gap:10px}}
