@@ -1,5 +1,44 @@
 [
   {
+    "id": "stoles",
+    "category": "uiux",
+    "year": "2026",
+    "title": {
+      "en": "Stoles University: E-commerce Website Redesign",
+      "zh": "Stoles University：电商网站重设计"
+    },
+    "cover": "https://stolesuniversity.com/cdn/shop/files/Luxury-Printed-1.jpg?v=1765328516&width=2000",
+    "coverPosition": "50% 50%",
+    "content": {
+      "en": "An ongoing UI/UX redesign for Stoles University, a custom graduation-stole brand. I am reworking the homepage to make product discovery, quality differences and custom ordering easier to understand.",
+      "zh": "为定制毕业绶带品牌 Stoles University 进行中的 UI/UX 网页重设计。我正在重新组织首页，让产品浏览、工艺差异与定制下单流程更清晰。"
+    },
+    "images": [],
+    "sections": [
+      {
+        "title": {
+          "en": "A clearer path from inspiration to ordering",
+          "zh": "从灵感浏览到定制下单"
+        },
+        "text": {
+          "en": "The redesigned homepage connects a product gallery, craft comparisons and a three-step ordering guide. Separate entry points help visitors choose between designing online and getting support from the team.",
+          "zh": "改版将产品画廊、工艺对比和三步定制流程串联起来，并为自主设计与团队协助提供清晰的入口。"
+        }
+      },
+      {
+        "title": {
+          "en": "My contribution",
+          "zh": "我的工作"
+        },
+        "text": {
+          "en": "I am developing the page structure and visual interface in Figma and Shopify, bringing together content hierarchy, responsive layouts and interactive product comparisons. The work is currently in development.",
+          "zh": "我使用 Figma 与 Shopify 推进页面结构和视觉界面设计，整理内容层级、适配不同屏幕，并搭建可交互的产品对比展示。目前项目仍在进行中。"
+        }
+      }
+    ],
+    "referenceUrl": "https://stolesuniversity.com/"
+  },
+  {
     "id": "jingxi",
     "category": "product",
     "title": {
@@ -354,21 +393,6 @@
       }
     ],
     "coverPosition": "50% 54%"
-  },
-  {
-    "id": "book",
-    "category": "marketing",
-    "title": {
-      "en": "Xiaoxuan × Liu Liang: Book Launch & Video Strategy",
-      "zh": "小玄 × 刘良：新书对谈与短视频营销"
-    },
-    "cover": null,
-    "content": {
-      "en": "",
-      "zh": ""
-    },
-    "images": [],
-    "sections": []
   },
   {
     "id": "wuerli",
@@ -4147,32 +4171,6 @@
     ],
     "sections": [],
     "coverFit": "fill"
-  },
-  {
-    "id": "moscow",
-    "category": "theatre",
-    "title": {
-      "en": "Moscow Time Zone",
-      "zh": "《莫斯科时间》"
-    },
-    "cover": "assets/covers/moscow.webp",
-    "content": {
-      "en": "",
-      "zh": ""
-    },
-    "images": [
-      {
-        "src": "assets/theatre/moscow.webp",
-        "caption": {
-          "en": "Moscow Time Zone — performance photograph",
-          "zh": "《莫斯科时区》演出照片"
-        },
-        "width": 1280,
-        "height": 850
-      }
-    ],
-    "sections": [],
-    "coverPosition": "50% 42%"
   },
   {
     "id": "copenhagen",
