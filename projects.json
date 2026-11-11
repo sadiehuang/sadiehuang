@@ -48,189 +48,382 @@
     },
     "cover": "assets/jingxi/page-1.webp",
     "content": {
-      "en": "A cultural-tourism business project for Shuiyuzui Village on the Jingxi Ancient Road, awarded a Challenge Cup Gold Award (first place). The team delivered 68 print-ready creative product designs, 6 tourism-infrastructure improvements, 2 types of sales training for villagers, and a product catalogue for investment outreach.",
-      "zh": "围绕京西古道水峪嘴村开展的文旅商业开发项目，获得挑战杯金奖（第一名）。团队产出68件可印制售卖的文创设计、6处景区基础设施建设、2类村民销售培训，并制作产品画册用于招商引资。"
+      "en": "A collection of heritage-inspired products for Shuiyuzui Village, Beijing. The project connects an established hiking destination with local stories, visitor experiences, and opportunities for village income.",
+      "zh": "以北京水峪嘴村和京西古道为主题的系列文创项目，将已有徒步客流与地方故事、游客体验和村民增收机会连接起来。"
     },
     "images": [
       {
+        "id": "audiences",
         "src": "assets/jingxi/page-17.webp",
         "caption": {
-          "en": "Customer segmentation & use cases",
-          "zh": "用户分层与使用场景"
-        },
-        "explanation": {
-          "en": "The slide separates organised groups—schools, universities, and institutions—from families, tourists, and local residents. Each segment is linked to a different purchase occasion: educational activities, team visits, souvenirs, or hands-on crafts. This informed the product mix and route offering.",
-          "zh": "图中区分学校、高校、企事业单位等团队客群与家庭、游客、本地居民等散客，并将不同人群对应研学、团建、纪念品购买和手作体验，指导产品组合与路线规划。"
+          "en": "Audience research: matching visitor groups with activities and purchase occasions. Original project presentation, p. 17.",
+          "zh": "客群研究：将游客类型与活动、购买场景对应。原项目演示材料第17页。"
         },
         "width": 2160,
-        "height": 1215
+        "height": 1215,
+        "crop": [
+          0.025,
+          0.095,
+          0.95,
+          0.875
+        ]
       },
       {
-        "src": "assets/jingxi/page-12.webp",
-        "caption": {
-          "en": "Business model & local value chain",
-          "zh": "商业模式与本地价值链"
-        },
-        "explanation": {
-          "en": "The operating model connects cultural-tourism visitors and educational groups with products, craft experiences, guided interpretation, and themed routes. University and expert support informs development; villagers take part in delivery and sales, linking visitor spending with local income.",
-          "zh": "商业模式连接文旅游客、研学团队与文创商品、手作体验、讲解及特色路线，以高校和专家支持研发，由村民参与服务和销售，把游客消费与本地收入连接起来。"
-        },
-        "width": 2160,
-        "height": 1215
-      },
-      {
-        "src": "assets/jingxi/page-18.webp",
-        "caption": {
-          "en": "Acquisition channels & conversion",
-          "zh": "获客渠道与转化路径"
-        },
-        "explanation": {
-          "en": "Three channels are proposed: campus and institutional partnerships, regional collaborations, and online social platforms. Each directs visitors towards a relevant route or product family; purchases and craft participation form the revenue conversion points.",
-          "zh": "校园及机构合作、区域共建和网络平台构成三类获客渠道，分别导向适配的路线与产品系列，通过商品购买和手作参与完成商业转化。"
-        },
-        "width": 2160,
-        "height": 1215
-      },
-      {
-        "src": "assets/jingxi/page-19.webp",
-        "caption": {
-          "en": "Village interviews & product pricing",
-          "zh": "村民访谈与产品定价"
-        },
-        "explanation": {
-          "en": "Villagers are positioned as makers, sellers, and beneficiaries. The tables show proposed price points for products, creative experiences, and souvenirs, combining interview findings with market references; they are pricing plans rather than realised sales figures.",
-          "zh": "村民被纳入制作、销售与受益环节；表格将访谈与市场参考转化为商品、体验及纪念品的拟定价格，展示定价方案，而非实际销售数据。"
-        },
-        "width": 2160,
-        "height": 1215
-      },
-      {
+        "id": "mascot",
         "src": "assets/jingxi/page-24.webp",
         "caption": {
-          "en": "Jingxiaoxi mascot & derivatives",
-          "zh": "京小喜吉祥物及衍生品"
-        },
-        "explanation": {
-          "en": "The mascot combines a lion-head motif with local peach-blossom imagery and a friendly character style. The visual system extends across stickers, charms, cards, and other small products, creating a recognisable identity across different price points.",
-          "zh": "吉祥物将狮头岭意象、当地山桃花与亲切的角色风格结合，并延伸至贴纸、挂件、卡片等小件，形成跨产品的统一识别与价格层次。"
+          "en": "Jing Xiao Xi: a lion character with peach blossoms, a pack-animal bell, and hoof-shaped boots. Product catalogue, p. 24 (left).",
+          "zh": "京小喜：结合山桃花、驮运铃铛和蹄形靴的狮子形象。产品画册第24页左侧。"
         },
         "width": 1263,
-        "height": 893
+        "height": 893,
+        "crop": [
+          0,
+          0,
+          0.5,
+          1
+        ]
       },
       {
-        "src": "assets/jingxi/page-30.webp",
+        "id": "mascot-products",
+        "src": "assets/jingxi/page-24.webp",
         "caption": {
-          "en": "Ancient Road Nostalgia: seasonal product system",
-          "zh": "古道乡愁：四季产品体系"
-        },
-        "explanation": {
-          "en": "Spring blossoms, summer greenery, autumn travellers, and winter snow become four matching designs. The fan-shaped magnets can form one circular set, encouraging collection. The source page shows the magnets and their visual motifs.",
-          "zh": "春花、夏意、秋日、冬雪形成四组对应视觉；扇形冰箱贴可组合成圆形套装，强化收藏与系列购买。此原始选页展示冰箱贴与视觉元素。"
+          "en": "The mascot across charms, stickers, red envelopes, and digital expressions. Product catalogue, p. 24 (right).",
+          "zh": "吉祥物在挂件、贴纸、红包和表情包上的延展。产品画册第24页右侧。"
         },
         "width": 1263,
-        "height": 893
+        "height": 893,
+        "crop": [
+          0.5,
+          0,
+          0.5,
+          1
+        ]
       },
       {
+        "id": "landmarks",
         "src": "assets/jingxi/page-27.webp",
         "caption": {
-          "en": "Jingxi Heritage: landmarks & postcards",
-          "zh": "京西古韵：地标与明信片"
+          "en": "Jingxi Heritage: illustrations of landmarks along the ancient road. Product catalogue, p. 27 (left).",
+          "zh": "京西古韵：古道沿线地标插画。产品画册第27页左侧。"
         },
-        "explanation": {
-          "en": "The postcard series turns recognisable ancient-road landmarks into illustrated keepsakes. Their shapes and visual details give visitors a portable memory of the route, connecting site exploration with a souvenir purchase.",
-          "zh": "明信片将古道地标转化为可携带的插画纪念品，以建筑外形与细节加强地方识别，连接路线游览与纪念品消费。"
+        "width": 1263,
+        "height": 893,
+        "crop": [
+          0,
+          0,
+          0.5,
+          1
+        ]
+      },
+      {
+        "id": "postcards",
+        "src": "assets/jingxi/page-27.webp",
+        "caption": {
+          "en": "Cut-out postcards connect the illustrated landmarks with the places visitors encounter. Product catalogue, p. 27 (right).",
+          "zh": "镂空明信片连接插画地标与游客沿途看到的实景。产品画册第27页右侧。"
+        },
+        "width": 1263,
+        "height": 893,
+        "crop": [
+          0.5,
+          0,
+          0.5,
+          1
+        ]
+      },
+      {
+        "id": "stamps",
+        "src": "assets/jingxi/page-29.webp",
+        "caption": {
+          "en": "Collectible stamp concepts featuring local buildings, village scenes, and travel motifs. Product catalogue, p. 29 (right).",
+          "zh": "以地方建筑、村景和行旅意象为主题的邮票设计。产品画册第29页右侧。"
+        },
+        "width": 1263,
+        "height": 893,
+        "crop": [
+          0.5,
+          0,
+          0.5,
+          1
+        ]
+      },
+      {
+        "id": "seasons",
+        "src": "assets/jingxi/page-30.webp",
+        "caption": {
+          "en": "Ancient Road Nostalgia: four seasonal magnets combine into one circular set. Product catalogue, p. 30.",
+          "zh": "古道乡愁：四季扇形冰箱贴可组合为完整圆形。产品画册第30页。"
         },
         "width": 1263,
         "height": 893
+      },
+      {
+        "id": "operations",
+        "src": "assets/jingxi/page-12.webp",
+        "caption": {
+          "en": "The proposed business model connects visitor spending, products and experiences, and local participation. Original project presentation, p. 12.",
+          "zh": "拟定商业模式连接游客消费、产品与体验以及村民参与。原项目演示材料第12页。"
+        },
+        "width": 2160,
+        "height": 1215,
+        "crop": [
+          0.015,
+          0.095,
+          0.97,
+          0.88
+        ]
       }
     ],
     "year": "2024",
     "article": [
       {
+        "heading": {
+          "en": "My contribution",
+          "zh": "我的贡献"
+        },
+        "level": 2
+      },
+      {
         "text": {
-          "en": "The project began with a question: how could the heritage of the Jingxi Ancient Road create opportunities for the people who live along it? In Shuiyuzui Village, Mentougou, Beijing, field research and village interviews revealed an ageing population, limited local labour, and tourism demand concentrated around holidays. We used that research to look for products and experiences residents could help make and sell, giving visitors reasons to spend beyond sightseeing.",
-          "zh": "项目从一个问题出发：京西古道的历史文化，如何为沿线居民带来新的机会？在北京门头沟水峪嘴村，实地调研与村民访谈显示，村庄面临人口老龄化、劳动力有限、旅游需求集中在节假日等问题。我们以调研为基础寻找村民能够参与制作与销售的产品和体验，让游客在观光之外产生消费。"
+          "en": "I was responsible for market research and the design of the Jing Xiao Xi mascot, the Jingxi Heritage (京西·古韵) collection, and the Ancient Road Nostalgia (古道·乡愁) collection. I connected audience needs and purchase occasions with product concepts, then translated local landmarks, travel traditions, and seasonal scenery into character designs and souvenir collections. The wider product range and operating proposal were developed as a team.",
+          "zh": "我负责市场研究，以及京小喜吉祥物、“京西·古韵”和“古道·乡愁”系列文创设计。我将客群需求、购买场景与产品概念相联系，再把地方地标、行旅文化和四季景色转化为吉祥物与系列纪念品。更完整的产品体系和运营方案由团队共同完成。"
+        },
+        "kind": "contribution"
+      },
+      {
+        "heading": {
+          "en": "An established hiking route, an underused cultural resource",
+          "zh": "已有徒步客流，文化资源仍待转化"
+        },
+        "level": 2
+      },
+      {
+        "text": {
+          "en": "Shuiyuzui Village sits on the Jingxi Ancient Road in Mentougou, western Beijing. The route and its surroundings include Niujiaoling Pass, hoofprints worn into the stone, and the former residence of the poet Ma Zhiyuan. About a 1.5-hour drive from central Beijing, its 5 km and 10 km loops are familiar to the city’s hiking community and attract repeat visitors. Yet many come mainly for exercise and scenery, spend little time exploring the road’s history, and make only a limited contribution to the local visitor economy.",
+          "zh": "水峪嘴村位于北京门头沟京西古道沿线，沿线及周边有牛角岭关城、马蹄窝和马致远故居等地标。这里距北京市区约1.5小时车程，5公里和10公里环线在北京徒步圈已有一定知名度，也吸引重复到访的游客。但许多人主要为了运动和看风景而来，对古道历史了解有限，对当地旅游消费的带动仍然不足。"
         }
       },
       {
         "text": {
-          "en": "To turn this opportunity into a product strategy, we first separated organised groups from independent visitors. Schools, universities, and institutions needed educational routes, group activities, and themed souvenirs. Families, tourists, and local residents were more likely to seek affordable keepsakes, local stories, or hands-on craft experiences. Linking each audience to a purchase occasion helped us shape six product families and four experience extensions.",
-          "zh": "为了把机会转化为产品策略，我们先区分团队客群与散客。学校、高校和企事业单位更需要研学路线、集体活动与主题纪念品；家庭、外地游客和本地居民则更关注便携纪念品、地方故事及手作体验。将客群与购买场景对应后，我们形成六大产品系列与四类特色延伸。"
+          "en": "Field visits, village interviews, and historical research shaped the proposal. Our early research identified fragmented promotion across attractions, a limited souvenir offering, and few interactive experiences. Demand was concentrated on weekends and holidays, with fewer visitors in winter. An ageing population and the departure of younger workers constrained local staffing, while the 2023 floods damaged parts of the tourism infrastructure. We therefore considered both what visitors might buy and what residents could realistically help make, explain, and sell.",
+          "zh": "实地考察、村民访谈和历史资料整理构成方案基础。前期调研发现，景点宣传较为分散，文创供给和互动体验不足；客流集中在周末、节假日，冬季较少。人口老龄化和年轻劳动力外流限制了当地用工，2023年洪灾又损坏了部分旅游设施。因此，我们同时考虑游客愿意买什么，以及村民能够参与哪些制作、讲解和销售工作。"
         }
       },
       {
-        "image": "assets/jingxi/page-17.webp"
+        "heading": {
+          "en": "Why heritage-inspired products?",
+          "zh": "为什么选择文创？"
+        },
+        "level": 2
       },
       {
         "text": {
-          "en": "The next step was to translate local identity into recognisable designs. Village architecture, ancient-road stories, seasonal scenery, and local landmarks became our visual starting points. My design work included the Jingxiaoxi mascot and its derivatives, the Ancient Road Nostalgia fridge magnets, and the Jingxi Heritage postcards and collectible stamp designs. The mascot combined a lion-head motif with local peach blossoms, giving stickers, charms, cards, and other small products a shared identity.",
-          "zh": "接下来，我们将地方文化转化为具有识别度的设计。村落建筑、古道故事、四季景观和地方地标成为视觉素材。我参与设计京小喜吉祥物及衍生品、“古道乡愁”冰箱贴，以及“京西古韵”明信片和集章印章。吉祥物结合狮头岭意象与当地山桃花，使贴纸、挂件、卡片等小件拥有统一形象。"
+          "en": "A useful or memorable object gives visitors an accessible way into local culture. Someone who would not seek out a history lesson may still buy a postcard that records the walk, a well-designed magnet, or a practical cup. Each product can introduce a story at the point of purchase and continue to carry that story through everyday use or gifting. The aim was to connect cultural interpretation with an existing reason to visit.",
+          "zh": "一件实用或有纪念意义的物品，可以成为了解地方文化的入口。游客未必会专门听历史讲解，却可能购买一张记录行程的明信片、一件好看的冰箱贴或一只实用水杯。产品在购买时引出故事，也能通过日常使用和赠礼延续传播，把文化介绍与已有的游览动机联系起来。"
         }
       },
       {
-        "image": "assets/jingxi/page-24.webp"
-      },
-      {
         "text": {
-          "en": "For Ancient Road Nostalgia, spring blossoms, summer greenery, autumn travellers, and winter snow became four matching designs. The fan-shaped magnets could be assembled into a circular set, encouraging collection across seasons. The source page below shows the magnet designs and their visual motifs.",
-          "zh": "“古道乡愁”将春花、夏意、秋日行旅与冬雪转化为四组对应设计。扇形冰箱贴能够组合成圆形套装，强化四季收藏与系列购买的意愿；下方原始材料展示冰箱贴设计及其视觉元素。"
+          "en": "Paper goods, fabric bags, and small keepsakes also offer a manageable starting point for limited production runs and feedback-based adjustments. Craft activities can give families a reason to stay longer, while online sales can support purchases after a visit. The village’s existing ice-cream production chain suggested another practical opportunity: landmark-shaped ice creams developed with a local manufacturer. These were proposed routes to revenue and participation, to be tested through production and sales.",
+          "zh": "纸品、布袋和小型纪念品适合从小批量生产起步，根据反馈调整。手作活动可增加家庭游客的停留时间，线上销售支持离店后购买。村里已有冰淇淋生产链，也为与当地厂家合作开发地标造型雪糕提供了条件。这些都是有待通过生产和销售验证的增收及参与路径。"
         }
       },
       {
-        "image": "assets/jingxi/page-30.webp"
+        "heading": {
+          "en": "Market research: a different offer for each audience",
+          "zh": "市场研究：针对不同客群设计方案"
+        },
+        "level": 2
       },
       {
         "text": {
-          "en": "The Jingxi Heritage postcards offered another way to carry the route home. Illustrated landmarks preserved the shapes and details of local architecture, connecting the experience of exploring a place with a small, portable keepsake. The series also included collectible stamps, inviting visitors to gather impressions as they explored the route.",
-          "zh": "“京西古韵”明信片提供了另一种把古道带回家的方式。插画地标保留地方建筑的外形与细节，将游览体验连接到可携带的纪念品。这组产品还包含集章印章，游客可以沿途收集印记，为游览增添互动体验。"
+          "en": "The market strategy grouped visitors by the purpose of their trip and the situation in which they might buy or participate. The original research distinguished organised groups from independent visitors; the product plan then connected each audience to a relevant activity, format, and price point.",
+          "zh": "市场策略依据出游目的和购买、参与场景区分游客。原始研究先区分团队客群与散客，再把不同人群与适合的活动、产品形式及价格层次对应。"
         }
       },
       {
-        "image": "assets/jingxi/page-27.webp"
+        "heading": {
+          "en": "Hikers and independent visitors",
+          "zh": "徒步爱好者与年轻散客"
+        },
+        "level": 3
       },
       {
         "text": {
-          "en": "Products alone were not enough: the proposal also needed an operating model. We connected product sales with craft experiences, guided interpretation, and themed routes. University and expert support informed development, while villagers participated in delivery and sales. This made local employment part of the business model, linking visitor spending with income for residents.",
-          "zh": "产品之外，方案还需要可运行的商业模式。我们将文创销售与手作体验、讲解服务和特色路线连接，由高校及专家支持研发，让村民参与服务和销售。这样，本地就业被纳入运营机制，游客消费也能与居民收入建立联系。"
+          "en": "For visitors focused on walking, products need to be portable, reasonably priced, and connected to the route they have just completed. Postcards, route passports, badges, and magnets offer an easy purchase at a rest stop or the end of a walk. Landmark check-ins and stamps make the keepsake a record of the visit. Different landmarks and seasonal editions give returning hikers something new to discover.",
+          "zh": "徒步游客需要便携、价格适中、与亲自行走路线有关的产品。明信片、通关文牒、徽章和冰箱贴适合在休息点或行程结束时购买。地标打卡与盖章让纪念品成为游览记录，不同地标和季节主题则为重复到访提供新的选择。"
         }
       },
       {
-        "image": "assets/jingxi/page-12.webp"
+        "heading": {
+          "en": "Families and school-age children",
+          "zh": "亲子家庭与中小学生"
+        },
+        "level": 3
       },
       {
         "text": {
-          "en": "To bring visitors into that model, we proposed campus and institutional partnerships, regional tourism collaborations, and online social platforms. A mini-program would connect route information with product promotion. Each channel led to a relevant route or product family, with purchases and craft participation forming the conversion points.",
-          "zh": "为了引入客流，我们提出校园及机构合作、区域文旅联动和网络平台三类获客渠道，并通过小程序连接路线信息与产品推广。不同渠道导向适配的路线和产品系列，商品购买与手作参与成为转化环节。"
+          "en": "Weekend families need activities they can enjoy together. The friendly mascot, hand-painted fans, and other DIY products can be paired with short stories about the ancient road. Children learn through images and making, while parents get a shared activity with a clear cultural connection. For school visits, landmark observation, interpretation, and craft sessions can form a structured educational programme.",
+          "zh": "周末家庭游客需要可以共同参与的活动。亲切的吉祥物、手绘团扇和DIY产品可配合简短的古道故事，让孩子通过图像与制作认识文化，让家长获得有内容的亲子体验。学校研学则可将地标观察、讲解和手作组织成完整活动。"
         }
       },
       {
-        "image": "assets/jingxi/page-18.webp"
+        "heading": {
+          "en": "Universities and organisations",
+          "zh": "高校与企事业单位"
+        },
+        "level": 3
       },
       {
         "text": {
-          "en": "We then developed proposed price points using village interviews and market references. Accessible everyday products sat alongside higher-value experience packages, while training helped residents prepare for making and selling the products. The tables below document the pricing plan rather than realised sales.",
-          "zh": "随后，我们结合村民访谈与市场参考制定拟定价格，把日常小件与更高价值的体验套餐搭配，同时通过培训帮助村民参与制作与销售。下方表格记录的是定价方案，而非实际销售数据。"
+          "en": "University fieldwork, community engagement, team visits, and Party and Youth League activities create a different purchasing context: coordinated materials for a group. The Ancient Road · Original Aspiration collection proposes themed stationery and learning kits as activity supplies, prizes, or souvenirs. These can be packaged with visits, guided interpretation, and themed routes. The team’s experience organising campus activities offered an initial channel for outreach.",
+          "zh": "高校社会实践、团建和党团活动需要统一的团队物料。“古道·初心”系列提供主题文具与学习包，作为活动用品、奖品或纪念品，与参观、讲解和主题线路配套。团队已有的校园活动组织经验可作为初期对接渠道。"
         }
       },
       {
-        "image": "assets/jingxi/page-19.webp"
+        "heading": {
+          "en": "Heritage enthusiasts and local residents",
+          "zh": "文化兴趣游客与当地居民"
+        },
+        "level": 3
       },
       {
         "text": {
-          "en": "The final work brought research, design, and village operations into one proposal and product catalogue. Alongside my research and design contributions, I edited the promotional video to communicate the project’s cultural story. The project connected local heritage with practical opportunities for the village.",
-          "zh": "最终，我们将研究、设计与村庄运营整合为完整方案及产品画册。除调研和设计工作外，我还参与宣传视频剪辑，传达项目的文化故事。项目将地方文化与村庄发展机会连接起来。"
+          "en": "For people interested in local history, and residents with a connection to the area, poetry, architecture, village scenes, and seasonal landscapes can support collecting, gifting, and a sense of belonging. Residents are also potential storytellers and sales partners. This makes their knowledge part of the visitor experience as well as a source for design.",
+          "zh": "对地方历史感兴趣的游客及当地居民，可通过诗词、建筑、村景和四季主题产品满足收藏、赠礼与乡土情感需求。居民也可以参与讲解和销售，让他们的地方知识同时成为游客体验和设计的资源。"
+        }
+      },
+      {
+        "figures": [
+          "audiences"
+        ]
+      },
+      {
+        "heading": {
+          "en": "Design principle: one product, one story",
+          "zh": "设计理念：一文创一故事"
+        },
+        "level": 2
+      },
+      {
+        "text": {
+          "en": "Every design starts with a specific local reference. Form, imagery, function, and story should reinforce one another so that a product feels connected to this place. Across the project, the team developed six families: the brand identity, Jing Xiao Xi, Ancient Road · Original Aspiration, Jingxi Heritage, Ancient Road Nostalgia, and Ancient Road Traveller. Four extensions covered DIY crafts, ice creams, packaging, and wayfinding. My design contribution focused on the following three collections.",
+          "zh": "每件设计都从具体的地方素材出发，让造型、图案、用途与故事相互对应。团队形成品牌标志、京小喜、古道·初心、京西·古韵、古道·乡愁和古道·行者六大系列，并延伸至DIY手作、文创冰淇淋、包装和路牌设计。我的设计工作集中在以下三个系列。"
+        }
+      },
+      {
+        "heading": {
+          "en": "Jing Xiao Xi — a character rooted in the road",
+          "zh": "京小喜：从古道文化中生长的形象"
+        },
+        "level": 3
+      },
+      {
+        "text": {
+          "en": "The mascot draws on the lion imagery of Shitouling, or Lion’s Head Ridge. Peach blossoms refer to the flowers beside the ancient road; the bell recalls the pack animals that once transported goods; hoof-shaped boots echo the marks left by those journeys. I translated these references into a friendly character that could work across charms, stickers, red envelopes, and digital expressions. The shared character makes small products recognisable and gives family visitors an approachable guide to the road’s stories.",
+          "zh": "吉祥物取材于狮头岭的狮子意象：山桃花对应古道沿线的春日花景，铃铛呼应旧时驮运货物的骡队，蹄形靴对应行旅留下的马蹄印记。我将这些素材转化为亲切的角色，并延伸到挂件、贴纸、红包和表情包。统一形象让小件产品具有识别度，也为亲子游客提供易于亲近的故事讲述角色。"
+        }
+      },
+      {
+        "figures": [
+          "mascot",
+          "mascot-products"
+        ]
+      },
+      {
+        "heading": {
+          "en": "Jingxi Heritage — carrying the landmarks home",
+          "zh": "京西·古韵：把沿途地标带回家"
+        },
+        "level": 3
+      },
+      {
+        "text": {
+          "en": "This collection translates ancient-road architecture, landmarks, and poetry into postcards, bookmarks, and collectible stamp concepts. The illustrated buildings retain distinctive silhouettes and details so visitors can recognise places they have encountered. Cut-out postcard frames can be aligned with real scenery, inviting visitors to look more closely and create their own photographs. Together with route passports and check-in stamps, the collection connects walking, observing, recording, and taking a memory home.",
+          "zh": "这一系列将古道建筑、地标与诗词转化为明信片、书签和邮票设计。地标插画保留具有辨识度的轮廓与细节，让游客对应沿途看到的地点。镂空明信片可与实景结合，鼓励观察和拍照；配合通关文牒与打卡印章，把行走、观看、记录和纪念连接起来。"
+        }
+      },
+      {
+        "figures": [
+          "landmarks",
+          "postcards"
+        ]
+      },
+      {
+        "text": {
+          "en": "The stamp concepts extend the same idea through village scenes, historic buildings, and travel imagery. A small format becomes a way to collect multiple impressions of the route, rather than compress its identity into a single landmark.",
+          "zh": "邮票设计通过村庄景色、历史建筑和行旅意象延伸这一思路，让小幅面承载对古道的多种印象。"
+        }
+      },
+      {
+        "figures": [
+          "stamps"
+        ]
+      },
+      {
+        "heading": {
+          "en": "Ancient Road Nostalgia — four seasons, one collection",
+          "zh": "古道·乡愁：四季组成一个系列"
+        },
+        "level": 3
+      },
+      {
+        "text": {
+          "en": "Spring blossoms, summer greenery, autumn colour, and winter snow define four colour palettes and compositions. The fan-shaped magnets can be bought individually or assembled into a complete circle. This makes the seasons both a visual system and a product structure: each piece stands on its own, while the set tells a fuller story of the landscape. It also creates a connection between repeated visits, seasonal change, and collecting.",
+          "zh": "春花、夏叶、秋色和冬雪形成四组配色与构图。扇形冰箱贴可以单独购买，也能组合成完整圆形。四季同时成为视觉体系和产品结构：每件独立成立，组合后呈现更完整的地方景观，并将重复游览、季节变化与收藏联系起来。"
+        }
+      },
+      {
+        "figures": [
+          "seasons"
+        ]
+      },
+      {
+        "heading": {
+          "en": "Making the proposal work locally",
+          "zh": "让方案能够在当地运行"
+        },
+        "level": 2
+      },
+      {
+        "text": {
+          "en": "The wider team proposal placed different offers at the entrance, rest stops along the route, and the village’s commercial street. Drinks, ice creams, and portable keepsakes suit a short stop; the village shop can support a fuller product display, storytelling, and craft activities. The Ancient Road Traveller collection extends travel imagery into cups, umbrellas, fans, and bags, while the Original Aspiration collection serves organised learning and group visits.",
+          "zh": "团队整体方案在入口、沿途补给点和村内商业街配置不同内容。途中适合饮品、雪糕及便携纪念品，村内门店适合完整产品展示、故事讲解和手作活动。“古道·行者”将行旅意象融入杯子、雨伞、团扇和布袋，“古道·初心”则服务集体学习与团队参访。"
+        }
+      },
+      {
+        "text": {
+          "en": "The proposed digital layer brings together route information, stories, product browsing, and purchases through a WeChat mini-program. Interface designs were completed, with Xiaohongshu and WeChat channels included in the promotion plan. Campus and institutional partnerships, regional tourism collaboration, and social content were intended to lead visitors to relevant routes, products, and experiences.",
+          "zh": "拟定的数字服务通过微信小程序整合路线、故事、产品展示和购买，已完成界面设计；推广方案包含小红书、微信公众号、校园及机构合作和区域文旅联动，将游客引向适配的线路、产品与体验。"
+        }
+      },
+      {
+        "figures": [
+          "operations"
+        ]
+      },
+      {
+        "text": {
+          "en": "Pricing was planned across several spending levels: RMB 5 for stickers, RMB 10 for badges, RMB 30 for canvas bags, and RMB 150–180 for lifestyle or learning kits. These are proposed prices from the project plan, subject to production costs and trial sales. Small-batch testing would help identify which products visitors actually value before expanding the range or committing to larger inventories.",
+          "zh": "拟定价格覆盖不同消费层次：贴纸5元、徽章10元、帆布袋30元，生活包和学习包150—180元。这些是策划书中的计划价格，需根据生产成本与试销调整。小批量测试可帮助确认游客真正愿意购买的产品，再扩大品类和库存。"
+        }
+      },
+      {
+        "heading": {
+          "en": "What the team delivered",
+          "zh": "团队产出与后续验证"
+        },
+        "level": 2
+      },
+      {
+        "text": {
+          "en": "The team completed 68 product design drafts, a product catalogue, supporting story materials, and mini-program interface designs. The project also included hand-painting guidance for villagers and preparation of sales explanations. These outputs form a basis for prototyping and testing; they do not establish realised sales or a measured increase in village income. The next step is to validate willingness to buy, production quality, and margins, then expand the products that work. The goal is practical: give visitors more reasons to engage and spend locally, while making the stories of the Jingxi Ancient Road easier to understand and remember.",
+          "zh": "团队完成68件文创设计稿、产品画册、故事材料和小程序界面，并开展村民手绘指导与销售讲解准备。这些产出为打样和测试提供基础，尚不能代表实际销售或已测得的增收。后续需要验证购买意愿、生产质量和利润，再扩展有效产品，让游客有更多理由了解古道、在当地消费，并带走对地方文化的记忆。"
         }
       }
     ],
-    "coverFit": "fill",
-    "contentHighlights": {
-      "en": [
-        "Challenge Cup"
-      ],
-      "zh": [
-        "挑战杯"
-      ]
-    }
+    "coverFit": "fill"
   },
   {
     "id": "silent",
