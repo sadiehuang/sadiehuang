@@ -22,3 +22,8 @@ function fitPortraits(){const frame=$('#portraits'),hero=$('#home'),content=$('.
 const portraitResize=new ResizeObserver(fitPortraits);portraitResize.observe($('#portraits'));portraitResize.observe($('.hero-content'));
 
 $('#year').textContent=new Date().getFullYear();translate();fetch('projects.json').then(r=>{if(!r.ok)throw Error('Projects unavailable');return r.json()}).then(data=>{works=data;renderGallery()}).catch(()=>{$('#gallery').textContent=lang==='en'?'Projects are temporarily unavailable. Please try again later.':'项目暂时无法加载，请稍后重试。'});loadPortraits();
+
+// Pause the portrait slideshow while its content is being read.
+const hero=$('#home');function pauseWhenReading(){paused=hero.matches(':hover')||hero.contains(document.activeElement);schedule()}hero.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')pauseWhenReading()});hero.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'){paused=hero.contains(document.activeElement);schedule()}});hero.addEventListener('focusin',pauseWhenReading);hero.addEventListener('focusout',()=>requestAnimationFrame(pauseWhenReading));
+// Keep document order and keyboard navigation aligned.
+{const work=$('#work'),education=$('#education');if(work&&education)education.before(work);const nav=$('#nav'),workLink=nav?.querySelector('a[href$="#work"]'),educationLink=nav?.querySelector('a[href$="#education"]');if(workLink&&educationLink)nav.insertBefore(workLink,educationLink)}
