@@ -48,8 +48,8 @@
     },
     "cover": "assets/jingxi/page-1.webp",
     "content": {
-      "en": "A collection of heritage-inspired products for Shuiyuzui Village, Beijing. The project connects an established hiking destination with local stories, visitor experiences, and opportunities for village income.",
-      "zh": "以北京水峪嘴村和京西古道为主题的系列文创项目，将已有徒步客流与地方故事、游客体验和村民增收机会连接起来。"
+      "en": "A cultural-tourism business project for Shuiyuzui Village on the Jingxi Ancient Road, awarded a Challenge Cup Gold Award (first place). The team delivered 68 print-ready creative product designs, 6 tourism-infrastructure improvements, 2 types of sales training for villagers, and a product catalogue for investment outreach.",
+      "zh": "围绕京西古道水峪嘴村开展的文旅商业开发项目，获得挑战杯金奖（第一名）。团队产出68件可印制售卖的文创设计、6处景区基础设施建设、2类村民销售培训，并制作产品画册用于招商引资。"
     },
     "images": [
       {
@@ -178,16 +178,9 @@
     "year": "2024",
     "article": [
       {
-        "heading": {
-          "en": "My contribution",
-          "zh": "我的贡献"
-        },
-        "level": 2
-      },
-      {
         "text": {
-          "en": "I was responsible for market research and the design of the Jing Xiao Xi mascot, the Jingxi Heritage (京西·古韵) collection, and the Ancient Road Nostalgia (古道·乡愁) collection. I connected audience needs and purchase occasions with product concepts, then translated local landmarks, travel traditions, and seasonal scenery into character designs and souvenir collections. The wider product range and operating proposal were developed as a team.",
-          "zh": "我负责市场研究，以及京小喜吉祥物、“京西·古韵”和“古道·乡愁”系列文创设计。我将客群需求、购买场景与产品概念相联系，再把地方地标、行旅文化和四季景色转化为吉祥物与系列纪念品。更完整的产品体系和运营方案由团队共同完成。"
+          "en": "I was responsible for market research and the design of the Jing Xiao Xi mascot, the Jingxi Heritage (京西·古韵) collection, and the Ancient Road Nostalgia (古道·乡愁) collection. The wider product range and operating proposal were developed as a team.",
+          "zh": "我负责市场研究，以及京小喜吉祥物、“京西·古韵”和“古道·乡愁”系列文创设计。更完整的产品体系和运营方案由团队共同完成。"
         },
         "kind": "contribution"
       },
@@ -423,7 +416,15 @@
         }
       }
     ],
-    "coverFit": "fill"
+    "coverFit": "fill",
+    "contentHighlights": {
+      "en": [
+        "Challenge Cup Gold Award (first place)"
+      ],
+      "zh": [
+        "挑战杯金奖（第一名）"
+      ]
+    }
   },
   {
     "id": "silent",
