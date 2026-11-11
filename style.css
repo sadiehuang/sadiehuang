@@ -272,3 +272,20 @@ body[data-project="jingxi"] .project-article>.contribution-note{background:var(-
 body[data-project="jingxi"] header,body[data-project="jingxi"] .project-contact{border-top:0;border-bottom:0}
 body[data-project="jingxi"] .project-article figcaption,body[data-project="jingxi"] #image-caption{display:none}
 body[data-project="jingxi"] .project-article>p>strong{font-weight:700;color:var(--fg)}
+
+/* Shared case-study format, based on Jingxi. */
+body[data-project] header,body[data-project] .project-contact{border-top:0;border-bottom:0}
+.project-case-study .project-article>h2,.project-case-study .gallery-header h2{font-size:18px;font-weight:700;line-height:1.85;letter-spacing:normal;border:0;padding:0;margin:36px 0 12px}
+.project-case-study .project-article>.contribution-note{background:var(--soft);border:0;padding:24px 28px;color:var(--fg);margin:28px 0 42px}
+.project-case-study .project-article>p>strong{font-weight:700;color:var(--fg)}
+.project-case-study figcaption,.project-case-study #image-caption,.project-case-study .episode-caption{display:none}
+.project-case-study .gallery-header h2{margin:0}
+.project-case-study .work-gallery{margin:36px 0 44px}
+.project-case-study .gallery-side{display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;padding:0;background:var(--bg);color:var(--fg);cursor:pointer;box-shadow:none}
+.project-case-study .gallery-side:not(:disabled):hover{background:var(--fg);color:var(--bg)}
+.gallery-side svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.project-case-study .gallery-stage{padding:0 54px}
+.project-case-study .project-article .media-slide{margin:0;flex-shrink:0}
+.project-case-study .episode-tabs button{width:auto;cursor:pointer;padding:9px 18px;border:1px solid var(--line)}
+.project-case-study .episode-tabs [aria-pressed=true]{background:var(--fg);color:var(--bg)}
+@media(max-width:600px){.project-case-study .project-article>h2,.project-case-study .gallery-header h2{font-size:16px;line-height:1.8}.project-case-study .project-article>.contribution-note{padding:20px}.project-case-study .gallery-stage{padding:0 46px}.project-case-study .gallery-side{width:36px;height:36px}}
