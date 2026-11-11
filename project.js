@@ -19,3 +19,6 @@ function renderEpisodes(parent,items,language){
  const section=document.createElement('section');section.className='episode-player';const controls=document.createElement('div');controls.className='episode-tabs';controls.setAttribute('aria-label',language==='zh'?'纪录片集数':'Documentary episodes');const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='none';const caption=document.createElement('p');caption.className='episode-caption';
  const select=index=>{video.pause();video.src='../../'+items[index].src;video.poster='../../'+items[index].poster;video.setAttribute('aria-label',items[index].caption[language]);caption.textContent=items[index].caption[language];[...controls.children].forEach((button,n)=>button.setAttribute('aria-pressed',String(n===index)));video.load()};items.forEach((item,index)=>{const button=document.createElement('button');button.textContent=item.caption[language];button.onclick=()=>select(index);controls.append(button)});section.append(controls,video,caption);parent.append(section);select(0)
 }
+
+// Match project navigation to the homepage section order.
+{const nav=document.querySelector('#nav'),work=nav?.querySelector('a[href$="#work"]'),education=nav?.querySelector('a[href$="#education"]');if(work&&education)nav.insertBefore(work,education)}
