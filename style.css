@@ -258,8 +258,8 @@ html[lang=zh] .skills-panel .skill-group h3:after{content:'：'}
 @media(max-width:700px){.home-intro{padding-top:52px;padding-bottom:52px}}
 
 /* Jingxi case study: scoped typography, contribution note, and source-image panels. */
-body[data-project="jingxi"] .project-article>h2{font-size:clamp(26px,3.4vw,38px);line-height:1.2;letter-spacing:-.025em;margin:64px 0 22px;padding-top:26px;border-top:1px solid var(--line)}
-body[data-project="jingxi"] .project-article>h3{font-size:22px;line-height:1.35;letter-spacing:-.015em;margin:36px 0 12px}
+body[data-project="jingxi"] .project-article>h2{font-size:18px;font-weight:700;line-height:1.85;letter-spacing:normal;margin:36px 0 12px;padding-top:0;border:0}
+body[data-project="jingxi"] .project-article>h3{font-size:18px;font-weight:700;line-height:1.85;letter-spacing:normal;margin:28px 0 12px}
 body[data-project="jingxi"] .project-article>h3+p{margin-top:12px}
 body[data-project="jingxi"] .project-article>.contribution-note{background:var(--soft);border-left:3px solid var(--accent);padding:24px 28px;color:var(--fg);margin-bottom:42px}
 .article-figure-pair{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
@@ -268,4 +268,5 @@ body[data-project="jingxi"] .project-article>.contribution-note{background:var(-
 .article-image-panel{position:relative;overflow:hidden;width:100%;background:var(--soft)}
 .article-image-panel img{position:absolute;height:auto;display:block}
 #lightbox .article-image-panel{width:min(82vw,calc(76vh * var(--panel-ratio)));max-height:none;margin:0 auto}#lightbox .article-image-panel img{max-height:none;max-width:none}
-@media(max-width:600px){.article-figure-pair{grid-template-columns:1fr;gap:0}body[data-project="jingxi"] .project-article>.contribution-note{padding:20px}body[data-project="jingxi"] .project-article>h2{margin-top:46px}body[data-project="jingxi"] .project-article>h3{font-size:20px}}
+@media(max-width:600px){.article-figure-pair{grid-template-columns:1fr;gap:0}body[data-project="jingxi"] .project-article>.contribution-note{padding:20px}body[data-project="jingxi"] .project-article>h2,body[data-project="jingxi"] .project-article>h3{font-size:16px;line-height:1.8}}
+body[data-project="jingxi"] header,body[data-project="jingxi"] .project-contact{border-top:0;border-bottom:0}
