@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 34319)
+Total output lines: 4402
+
 [
   {
     "id": "stoles",
@@ -14,30 +17,30 @@
       "zh": "为定制毕业绶带品牌 Stoles University 进行中的 UI/UX 网页重设计。我正在重新组织首页，让产品浏览、工艺差异与定制下单流程更清晰。"
     },
     "images": [],
-    "sections": [
+    "referenceUrl": "https://stolesuniversity.com/",
+    "coverFit": "cover",
+    "article": [
       {
-        "title": {
+        "text": {
+          "en": "I am developing the page structure and visual interface in Figma and Shopify, bringing together content hierarchy, responsive layouts and interactive product comparisons. The work is currently in development.",
+          "zh": "我使用 Figma 与 Shopify 推进页面结构和视觉界面设计，整理内容层级、适配不同屏幕，并搭建可交互的产品对比展示。目前项目仍在进行中。"
+        },
+        "kind": "contribution"
+      },
+      {
+        "heading": {
           "en": "A clearer path from inspiration to ordering",
           "zh": "从灵感浏览到定制下单"
         },
+        "level": 2
+      },
+      {
         "text": {
           "en": "The redesigned homepage connects a product gallery, craft comparisons and a three-step ordering guide. Separate entry points help visitors choose between designing online and getting support from the team.",
           "zh": "改版将产品画廊、工艺对比和三步定制流程串联起来，并为自主设计与团队协助提供清晰的入口。"
         }
-      },
-      {
-        "title": {
-          "en": "My contribution",
-          "zh": "我的工作"
-        },
-        "text": {
-          "en": "I am developing the page structure and visual interface in Figma and Shopify, bringing together content hierarchy, responsive layouts and interactive product comparisons. The work is currently in development.",
-          "zh": "我使用 Figma 与 Shopify 推进页面结构和视觉界面设计，整理内容层级、适配不同屏幕，并搭建可交互的产品对比展示。目前项目仍在进行中。"
-        }
       }
-    ],
-    "referenceUrl": "https://stolesuniversity.com/",
-    "coverFit": "cover"
+    ]
   },
   {
     "id": "jingxi",
@@ -482,12 +485,17 @@
         "text": {
           "en": "Prepared during my Maoyan Entertainment marketing internship, this 53-page proposal focuses on short-video promotion for A Place Called Silence. It connects comparable-film analysis, the film’s strengths and risks, release-stage messaging, content ideas, and creator-led events into a campaign plan.",
           "zh": "这份53页方案形成于猫眼娱乐市场营销实习期间，围绕《默杀》开展短视频推广策划，将同类影片分析、影片优势与风险、上映阶段信息、内容选题及达人活动串联为完整营销方案。"
-        }
+        },
+        "kind": "contribution"
       },
       {
         "text": {
           "en": "I began with comparable-film analysis to understand what draws audiences to crime thrillers and what makes them talk about a film afterwards. Suspense and curiosity established the genre’s core appeal; reversals, emotional payoff, and socially relevant themes offered reasons to share and discuss it. This distinction gave the proposal a foundation for both attention and wider conversation.",
           "zh": "我先通过同类影片分析，理解犯罪悬疑片如何吸引观众，以及观众为什么会在观影后讨论和分享。悬疑与猎奇构成类型基础吸引力；反转、情绪释放和社会议题则提供扩散的理由。这一区分为方案的注意力获取与话题传播建立了基础。"
+        },
+        "leadIn": {
+          "en": "Comparable-film research",
+          "zh": "同类影片研究"
         }
       },
       {
@@ -497,6 +505,10 @@
         "text": {
           "en": "Applying those findings to A Place Called Silence, I assessed its suspense, visual impact, performances, and social themes against the risks of genre fatigue and a complex multi-character story. The campaign needed a clear hook. The contrast between bullying, the victims’ silence, and the bullies’ unexplained deaths led to a central question: who is responsible, and what is each character hiding?",
           "zh": "将这些结论用于《默杀》后，我评估影片的悬疑、视觉冲击、表演与社会议题，也考虑类型疲劳和多人物故事过于复杂的风险。传播需要一个清晰钩子：霸凌、受害者的沉默与霸凌者离奇死亡形成反差，最终聚焦于“谁是凶手，每个人又隐瞒了什么？”这一核心问题。"
+        },
+        "leadIn": {
+          "en": "Film positioning",
+          "zh": "影片定位"
         }
       },
       {
@@ -506,6 +518,10 @@
         "text": {
           "en": "From that positioning, I organised pre-release messaging around four pillars: suspense, striking visual moments, social themes, and morally ambiguous characters. They provided different entry points for short videos while keeping the campaign’s crime-thriller promise consistent.",
           "zh": "在这一定位之上，我将映前信息组织为四个支柱：悬疑、视觉冲击、社会议题与多面人物。它们为短视频提供不同入口，同时保持犯罪悬疑的统一传播定位。"
+        },
+        "leadIn": {
+          "en": "Content pillars",
+          "zh": "内容支柱"
         }
       },
       {
@@ -515,6 +531,10 @@
         "text": {
           "en": "The rollout then became a three-stage sequence. First, establish the unconventional suspense premise and the severity of bullying. Next, reveal conflicting identities and character secrets, pairing suspense with emotional topics. After release, shift towards reversals, performance highlights, and detail analysis, giving viewers reasons to discuss the story and revisit it.",
           "zh": "排期由此形成三个阶段：首先建立反套路悬疑设定与霸凌冲突；随后逐步呈现人物的多面身份与秘密，以悬疑结合情绪话题；上映后转向反转、表演亮点和细节解读，延长讨论并提供重复观看的理由。"
+        },
+        "leadIn": {
+          "en": "Release strategy",
+          "zh": "上映阶段策略"
         }
       },
       {
@@ -524,6 +544,10 @@
         "text": {
           "en": "To make that sequence usable, the content plan paired film scenes with behind-the-scenes footage, cast interviews, proposed hashtags, and creator formats. Suspense and social themes carried the main story, while cast reactions and contrasting performances offered lighter entry points. A proposed scene-recreation challenge used a recognisable performance moment and the film’s music as a repeatable format for creator participation.",
           "zh": "为了让阶段策略落到具体内容，方案将正片片段、拍摄花絮、主创采访、预设话题与达人形式配对。悬疑和社会议题承载主线，演员反应与表演反差提供更轻量的入口。名场面模仿挑战则利用具有识别度的表演片段与电影音乐，形成可复制的达人参与形式。"
+        },
+        "leadIn": {
+          "en": "Content and creator formats",
+          "zh": "内容与达人形式"
         }
       },
       {
@@ -533,6 +557,10 @@
         "text": {
           "en": "The final activation extended the film’s themes into an audience question: as a witness to bullying, would you remain silent or speak up? A proposed screening event would invite viewers and creators to respond, creating a discussion format beyond plot summaries. It connected the emotional themes identified in the research with a concrete participation idea.",
           "zh": "最后，互动设计将影片议题转化为观众可以回答的问题：面对霸凌，作为旁观者会选择沉默还是发声？拟议的观影活动邀请观众和达人表达选择，在剧情介绍之外建立讨论形式，把前期研究中的社会情绪转化为具体参与方式。"
+        },
+        "leadIn": {
+          "en": "Audience participation",
+          "zh": "观众参与"
         }
       },
       {
@@ -542,6 +570,10 @@
         "text": {
           "en": "The completed 53-page proposal connected market evidence, a focused film position, release-stage priorities, and practical content and creator ideas. I also took an active role in the subsequent rollout, helping oversee the planning, filming, and editing of nearly 300 short videos promoting the film on Douyin, Rednote, and WeChat Channels.",
           "zh": "最终的53页方案串联市场依据、清晰的影片定位、上映阶段重点与具体内容及达人创意。我也深度参与后续项目实施，协助监制近300条短视频的策划、拍摄和剪辑，在抖音、小红书和微信视频号推广电影。"
+        },
+        "leadIn": {
+          "en": "Delivery and rollout",
+          "zh": "方案产出与执行"
         }
       }
     ],
@@ -552,8 +584,8 @@
     "category": "marketing",
     "year": "2025",
     "title": {
-      "en": "Wuerli Hotel: Social Media Operations",
-      "zh": "焐尔里民宿：社媒运营"
+      "en": "Wuerli & Daye: Social Media Content Strategy and Creation",
+      "zh": "Wuerli & Daye：社交媒体内容策略与创作"
     },
     "cover": "assets/wuerli/project-cover.webp",
     "content": {
@@ -603,10 +635,6 @@
         "portrait": true
       }
     ],
-    "galleryIntro": {
-      "zh": "在焐尔里民宿负责新媒体运营期间，我全权负责宣传推广与账号冷启动，统筹视频策划、拍摄、剪辑、后期制作及日常账号运营。这四支短片记录炭火上的烤奶、篝火旁的相聚，以及雨中和雨后的片刻。",
-      "en": "At Wuerli Hotel, I led promotion and launched its social accounts from scratch, covering video planning, filming, editing, post-production and daily operations. These four films capture roasted milk over embers, an evening together by the fire, and moments during and after the rain."
-    },
     "galleries": [
       {
         "title": {
@@ -660,6 +688,15 @@
           }
         ]
       }
+    ],
+    "article": [
+      {
+        "text": {
+          "zh": "在焐尔里民宿负责新媒体运营期间，我全权负责宣传推广与账号冷启动，统筹视频策划、拍摄、剪辑、后期制作及日常账号运营。这四支短片记录炭火上的烤奶、篝火旁的相聚，以及雨中和雨后的片刻。",
+          "en": "At Wuerli Hotel, I led promotion and launched its social accounts from scratch, covering video planning, filming, editing, post-production and daily operations. These four films capture roasted milk over embers, an evening together by the fire, and moments during and after the rain."
+        },
+        "kind": "contribution"
+      }
     ]
   },
   {
@@ -681,7 +718,8 @@
         "text": {
           "en": "As a User Growth Intern at Gagabang, I worked on Rednote content operations and community management. The role connected social media activity with the startup’s user-growth work.",
           "zh": "在 Gagabang 担任用户增长实习生期间，我参与小红书内容运营与社群管理，将社交媒体工作与公司的用户增长连接起来。"
-        }
+        },
+        "kind": "contribution"
       }
     ]
   },
@@ -1574,344 +1612,7 @@
             "height": 6000,
             "crop": [
               0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 1",
-              "en": "Autumn by the Window · 1"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/174.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 2",
-              "en": "Autumn by the Window · 2"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/177.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 3",
-              "en": "Autumn by the Window · 3"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/171.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 4",
-              "en": "Autumn by the Window · 4"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/172.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 5",
-              "en": "Autumn by the Window · 5"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/173.webp",
-            "width": 6000,
-            "height": 4000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 6",
-              "en": "Autumn by the Window · 6"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/178.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 7",
-              "en": "Autumn by the Window · 7"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/179.webp",
-            "width": 4000,
-            "height": 4000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 8",
-              "en": "Autumn by the Window · 8"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/180.webp",
-            "width": 3744,
-            "height": 3744,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "秋窗书影 · 9",
-              "en": "Autumn by the Window · 9"
-            }
-          }
-        ]
-      },
-      {
-        "title": {
-          "zh": "京城漫影 · 故宫、天坛与胡同",
-          "en": "Beijing Reverie · Palace, Temple & Hutongs"
-        },
-        "items": [
-          {
-            "type": "image",
-            "src": "assets/galleries/136.webp",
-            "width": 1440,
-            "height": 2161,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 1",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 1"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/134.webp",
-            "width": 1440,
-            "height": 2160,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 2",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 2"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/139.webp",
-            "width": 1440,
-            "height": 2162,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 3",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 3"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/127.webp",
-            "width": 1440,
-            "height": 2160,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 4",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 4"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/132.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 5",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 5"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/133.webp",
-            "width": 3157,
-            "height": 4735,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 6",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 6"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/137.webp",
-            "width": 1440,
-            "height": 2160,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 7",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 7"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/140.webp",
-            "width": 1440,
-            "height": 2160,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 8",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 8"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/196.webp",
-            "width": 1280,
-            "height": 1920,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 9",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 9"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/198.webp",
-            "width": 1024,
-            "height": 1536,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 10",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 10"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/199.webp",
-            "width": 4000,
-            "height": 6000,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 11",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 11"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/125.webp",
-            "width": 1920,
-            "height": 1280,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 12",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 12"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/175.webp",
-            "width": 1440,
-            "height": 2160,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 13",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 13"
-            }
-          },
-          {
-            "type": "image",
-            "src": "assets/galleries/197.webp",
-            "width": 1920,
-            "height": 1280,
-            "crop": [
-              0,
-              1
-            ],
-            "caption": {
-              "zh": "京城漫影 · 故宫、天坛与胡同 · 14",
-              "en": "Beijing Reverie · Palace, Temple & Hutongs · 14"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "travel",
-    "category": "photo",
-    "title": {
-      "en": "China, Alone the Way",
-      "zh": "独行中国"
-    },
-    "cover": "assets/covers/travel.webp",
-    "content": {
-      "en": "Photographs and short films from my solo travels across China, collected by region.",
-      "zh": "独自旅行时拍下的风景、街头与日常，以及沿途制作的短片，按地区整理。"
+      …2319 tokens truncated…，以及沿途制作的短片，按地区整理。"
     },
     "images": [],
     "sections": [],
@@ -4267,7 +3968,8 @@
         "text": {
           "zh": "我作为北国剧社一方的项目负责人，从选题初期到最终演出全程参与。忙碌之余，我还为活动制作了三集幕后纪录片，记录剧组入场、排练和演出的过程。",
           "en": "As the project lead representing Beiguo Drama Society, I was involved from the initial choice of play through to the final performance. In my spare time, I also made a three-part behind-the-scenes documentary, following the team’s arrival at the theatre, rehearsals and performance."
-        }
+        },
+        "kind": "contribution"
       },
       {
         "episodes": true
@@ -4297,7 +3999,11 @@
         "height": 1467
       }
     ],
-    "sections": []
+    "article": [
+      {
+        "image": "assets/theatre/words.webp"
+      }
+    ]
   },
   {
     "id": "cherry",
@@ -4322,8 +4028,12 @@
         "height": 1467
       }
     ],
-    "sections": [],
-    "coverFit": "fill"
+    "coverFit": "fill",
+    "article": [
+      {
+        "image": "assets/theatre/cherry.webp"
+      }
+    ]
   },
   {
     "id": "copenhagen",
@@ -4348,7 +4058,11 @@
         "height": 1467
       }
     ],
-    "sections": [],
-    "coverPosition": "50% 0%"
+    "coverPosition": "50% 0%",
+    "article": [
+      {
+        "image": "assets/theatre/copenhagen.webp"
+      }
+    ]
   }
 ]
