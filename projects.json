@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 34319)
-Total output lines: 4402
-
 [
   {
     "id": "stoles",
@@ -1612,7 +1609,344 @@ Total output lines: 4402
             "height": 6000,
             "crop": [
               0,
-      …2319 tokens truncated…，以及沿途制作的短片，按地区整理。"
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 1",
+              "en": "Autumn by the Window · 1"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/174.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 2",
+              "en": "Autumn by the Window · 2"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/177.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 3",
+              "en": "Autumn by the Window · 3"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/171.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 4",
+              "en": "Autumn by the Window · 4"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/172.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 5",
+              "en": "Autumn by the Window · 5"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/173.webp",
+            "width": 6000,
+            "height": 4000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 6",
+              "en": "Autumn by the Window · 6"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/178.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 7",
+              "en": "Autumn by the Window · 7"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/179.webp",
+            "width": 4000,
+            "height": 4000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 8",
+              "en": "Autumn by the Window · 8"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/180.webp",
+            "width": 3744,
+            "height": 3744,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "秋窗书影 · 9",
+              "en": "Autumn by the Window · 9"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "zh": "京城漫影 · 故宫、天坛与胡同",
+          "en": "Beijing Reverie · Palace, Temple & Hutongs"
+        },
+        "items": [
+          {
+            "type": "image",
+            "src": "assets/galleries/136.webp",
+            "width": 1440,
+            "height": 2161,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 1",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 1"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/134.webp",
+            "width": 1440,
+            "height": 2160,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 2",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 2"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/139.webp",
+            "width": 1440,
+            "height": 2162,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 3",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 3"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/127.webp",
+            "width": 1440,
+            "height": 2160,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 4",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 4"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/132.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 5",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 5"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/133.webp",
+            "width": 3157,
+            "height": 4735,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 6",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 6"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/137.webp",
+            "width": 1440,
+            "height": 2160,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 7",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 7"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/140.webp",
+            "width": 1440,
+            "height": 2160,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 8",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 8"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/196.webp",
+            "width": 1280,
+            "height": 1920,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 9",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 9"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/198.webp",
+            "width": 1024,
+            "height": 1536,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 10",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 10"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/199.webp",
+            "width": 4000,
+            "height": 6000,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 11",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 11"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/125.webp",
+            "width": 1920,
+            "height": 1280,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 12",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 12"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/175.webp",
+            "width": 1440,
+            "height": 2160,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 13",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 13"
+            }
+          },
+          {
+            "type": "image",
+            "src": "assets/galleries/197.webp",
+            "width": 1920,
+            "height": 1280,
+            "crop": [
+              0,
+              1
+            ],
+            "caption": {
+              "zh": "京城漫影 · 故宫、天坛与胡同 · 14",
+              "en": "Beijing Reverie · Palace, Temple & Hutongs · 14"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "travel",
+    "category": "photo",
+    "title": {
+      "en": "China, Alone the Way",
+      "zh": "独行中国"
+    },
+    "cover": "assets/covers/travel.webp",
+    "content": {
+      "en": "Photographs and short films from my solo travels across China, collected by region.",
+      "zh": "独自旅行时拍下的风景、街头与日常，以及沿途制作的短片，按地区整理。"
     },
     "images": [],
     "sections": [],
