@@ -133,22 +133,6 @@
         ]
       },
       {
-        "id": "stamps",
-        "src": "assets/jingxi/page-29.webp",
-        "caption": {
-          "en": "Collectible stamp concepts featuring local buildings, village scenes, and travel motifs. Product catalogue, p. 29 (right).",
-          "zh": "以地方建筑、村景和行旅意象为主题的邮票设计。产品画册第29页右侧。"
-        },
-        "width": 1263,
-        "height": 893,
-        "crop": [
-          0.5,
-          0,
-          0.5,
-          1
-        ]
-      },
-      {
         "id": "seasons",
         "src": "assets/jingxi/page-30.webp",
         "caption": {
@@ -236,55 +220,43 @@
         }
       },
       {
-        "heading": {
-          "en": "Hikers and independent visitors",
-          "zh": "徒步爱好者与年轻散客"
-        },
-        "level": 3
-      },
-      {
         "text": {
           "en": "For visitors focused on walking, products need to be portable, reasonably priced, and connected to the route they have just completed. Postcards, route passports, badges, and magnets offer an easy purchase at a rest stop or the end of a walk. Landmark check-ins and stamps make the keepsake a record of the visit. Different landmarks and seasonal editions give returning hikers something new to discover.",
           "zh": "徒步游客需要便携、价格适中、与亲自行走路线有关的产品。明信片、通关文牒、徽章和冰箱贴适合在休息点或行程结束时购买。地标打卡与盖章让纪念品成为游览记录，不同地标和季节主题则为重复到访提供新的选择。"
-        }
-      },
-      {
-        "heading": {
-          "en": "Families and school-age children",
-          "zh": "亲子家庭与中小学生"
         },
-        "level": 3
+        "leadIn": {
+          "en": "Hikers and independent visitors",
+          "zh": "徒步爱好者与年轻散客"
+        }
       },
       {
         "text": {
           "en": "Weekend families need activities they can enjoy together. The friendly mascot, hand-painted fans, and other DIY products can be paired with short stories about the ancient road. Children learn through images and making, while parents get a shared activity with a clear cultural connection. For school visits, landmark observation, interpretation, and craft sessions can form a structured educational programme.",
           "zh": "周末家庭游客需要可以共同参与的活动。亲切的吉祥物、手绘团扇和DIY产品可配合简短的古道故事，让孩子通过图像与制作认识文化，让家长获得有内容的亲子体验。学校研学则可将地标观察、讲解和手作组织成完整活动。"
-        }
-      },
-      {
-        "heading": {
-          "en": "Universities and organisations",
-          "zh": "高校与企事业单位"
         },
-        "level": 3
+        "leadIn": {
+          "en": "Families and school-age children",
+          "zh": "亲子家庭与中小学生"
+        }
       },
       {
         "text": {
           "en": "University fieldwork, community engagement, team visits, and Party and Youth League activities create a different purchasing context: coordinated materials for a group. The Ancient Road · Original Aspiration collection proposes themed stationery and learning kits as activity supplies, prizes, or souvenirs. These can be packaged with visits, guided interpretation, and themed routes. The team’s experience organising campus activities offered an initial channel for outreach.",
           "zh": "高校社会实践、团建和党团活动需要统一的团队物料。“古道·初心”系列提供主题文具与学习包，作为活动用品、奖品或纪念品，与参观、讲解和主题线路配套。团队已有的校园活动组织经验可作为初期对接渠道。"
-        }
-      },
-      {
-        "heading": {
-          "en": "Heritage enthusiasts and local residents",
-          "zh": "文化兴趣游客与当地居民"
         },
-        "level": 3
+        "leadIn": {
+          "en": "Universities and organisations",
+          "zh": "高校与企事业单位"
+        }
       },
       {
         "text": {
           "en": "For people interested in local history, and residents with a connection to the area, poetry, architecture, village scenes, and seasonal landscapes can support collecting, gifting, and a sense of belonging. Residents are also potential storytellers and sales partners. This makes their knowledge part of the visitor experience as well as a source for design.",
           "zh": "对地方历史感兴趣的游客及当地居民，可通过诗词、建筑、村景和四季主题产品满足收藏、赠礼与乡土情感需求。居民也可以参与讲解和销售，让他们的地方知识同时成为游客体验和设计的资源。"
+        },
+        "leadIn": {
+          "en": "Heritage enthusiasts and local residents",
+          "zh": "文化兴趣游客与当地居民"
         }
       },
       {
@@ -306,16 +278,13 @@
         }
       },
       {
-        "heading": {
-          "en": "Jing Xiao Xi — a character rooted in the road",
-          "zh": "京小喜：从古道文化中生长的形象"
-        },
-        "level": 3
-      },
-      {
         "text": {
           "en": "The mascot draws on the lion imagery of Shitouling, or Lion’s Head Ridge. Peach blossoms refer to the flowers beside the ancient road; the bell recalls the pack animals that once transported goods; hoof-shaped boots echo the marks left by those journeys. I translated these references into a friendly character that could work across charms, stickers, red envelopes, and digital expressions. The shared character makes small products recognisable and gives family visitors an approachable guide to the road’s stories.",
           "zh": "吉祥物取材于狮头岭的狮子意象：山桃花对应古道沿线的春日花景，铃铛呼应旧时驮运货物的骡队，蹄形靴对应行旅留下的马蹄印记。我将这些素材转化为亲切的角色，并延伸到挂件、贴纸、红包和表情包。统一形象让小件产品具有识别度，也为亲子游客提供易于亲近的故事讲述角色。"
+        },
+        "leadIn": {
+          "en": "Jing Xiao Xi",
+          "zh": "京小喜"
         }
       },
       {
@@ -325,16 +294,13 @@
         ]
       },
       {
-        "heading": {
-          "en": "Jingxi Heritage — carrying the landmarks home",
-          "zh": "京西·古韵：把沿途地标带回家"
-        },
-        "level": 3
-      },
-      {
         "text": {
           "en": "This collection translates ancient-road architecture, landmarks, and poetry into postcards, bookmarks, and collectible stamp concepts. The illustrated buildings retain distinctive silhouettes and details so visitors can recognise places they have encountered. Cut-out postcard frames can be aligned with real scenery, inviting visitors to look more closely and create their own photographs. Together with route passports and check-in stamps, the collection connects walking, observing, recording, and taking a memory home.",
           "zh": "这一系列将古道建筑、地标与诗词转化为明信片、书签和邮票设计。地标插画保留具有辨识度的轮廓与细节，让游客对应沿途看到的地点。镂空明信片可与实景结合，鼓励观察和拍照；配合通关文牒与打卡印章，把行走、观看、记录和纪念连接起来。"
+        },
+        "leadIn": {
+          "en": "Jingxi Heritage",
+          "zh": "京西·古韵"
         }
       },
       {
@@ -350,21 +316,13 @@
         }
       },
       {
-        "figures": [
-          "stamps"
-        ]
-      },
-      {
-        "heading": {
-          "en": "Ancient Road Nostalgia — four seasons, one collection",
-          "zh": "古道·乡愁：四季组成一个系列"
-        },
-        "level": 3
-      },
-      {
         "text": {
           "en": "Spring blossoms, summer greenery, autumn colour, and winter snow define four colour palettes and compositions. The fan-shaped magnets can be bought individually or assembled into a complete circle. This makes the seasons both a visual system and a product structure: each piece stands on its own, while the set tells a fuller story of the landscape. It also creates a connection between repeated visits, seasonal change, and collecting.",
           "zh": "春花、夏叶、秋色和冬雪形成四组配色与构图。扇形冰箱贴可以单独购买，也能组合成完整圆形。四季同时成为视觉体系和产品结构：每件独立成立，组合后呈现更完整的地方景观，并将重复游览、季节变化与收藏联系起来。"
+        },
+        "leadIn": {
+          "en": "Ancient Road Nostalgia",
+          "zh": "古道·乡愁"
         }
       },
       {
