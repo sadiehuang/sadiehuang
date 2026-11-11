@@ -7,8 +7,8 @@
       "en": "Stoles University: E-commerce Website Redesign",
       "zh": "Stoles University：电商网站重设计"
     },
-    "cover": "https://stolesuniversity.com/cdn/shop/files/Luxury-Printed-1.jpg?v=1765328516&width=2000",
-    "coverPosition": "50% 50%",
+    "cover": "assets/stoles-cover.png",
+    "coverPosition": "0% 50%",
     "content": {
       "en": "An ongoing UI/UX redesign for Stoles University, a custom graduation-stole brand. I am reworking the homepage to make product discovery, quality differences and custom ordering easier to understand.",
       "zh": "为定制毕业绶带品牌 Stoles University 进行中的 UI/UX 网页重设计。我正在重新组织首页，让产品浏览、工艺差异与定制下单流程更清晰。"
@@ -36,7 +36,8 @@
         }
       }
     ],
-    "referenceUrl": "https://stolesuniversity.com/"
+    "referenceUrl": "https://stolesuniversity.com/",
+    "coverFit": "cover"
   },
   {
     "id": "jingxi",
