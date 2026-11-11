@@ -250,3 +250,9 @@ html[lang=zh] .skills-panel .skill-group h3:after{content:'：'}
   .skills-panel .skill-groups{gap:12px}
 }
 @media(max-width:700px){.home-intro{padding-top:32px;padding-bottom:32px}}
+
+/* Increase the introduction's upper and lower padding by another 20px. */
+.home-intro{padding-top:50px;padding-bottom:50px}
+@media(min-width:1101px){.home-intro{padding-top:61px;padding-bottom:61px}}
+@media(min-width:1101px) and (max-height:640px){.home-intro{padding-top:52px;padding-bottom:52px}}
+@media(max-width:700px){.home-intro{padding-top:52px;padding-bottom:52px}}
