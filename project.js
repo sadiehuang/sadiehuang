@@ -1,6 +1,6 @@
 function themeIcon(){const shape=document.documentElement.dataset.theme==='dark'?'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>':'<path d="M20.5 13.2A8.5 8.5 0 0 1 10.8 3.5a8.5 8.5 0 1 0 9.7 9.7Z"/>';return '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="display:block;margin:auto">'+shape+'</svg>'}
 // Refresh shared project styling when this renderer version is loaded.
-document.querySelector('link[rel=stylesheet]').href='../../style.css?v=portfolio-20261112-12';
+document.querySelector('link[rel=stylesheet]').href='../../style.css?v=portfolio-20261112-13';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];let lang=document.documentElement.lang==='zh'?'zh':'en',project=null;const copy={en:{about:'About',education:'Education',projects:'Projects',experience:'Experience',back:'Back to projects',pending:'Project details will be added here.',product:'Cultural Research & Strategy',marketing:'Marketing',photo:'Photography',uiux:'UI/UX',documentary:'Documentary',theatre:'Theatre',video:'Project video',materials:'Selected project materials',note:'Original project materials are shown in their original language.',close:'Close image',light:'Switch to day theme',dark:'Switch to night theme',menu:'Menu',error:'This project could not be loaded. Please return to the project list.'},zh:{about:'关于我',education:'教育背景',projects:'项目',experience:'经历',back:'返回项目列表',pending:'项目详情将在这里补充。',product:'文化研究与策划',marketing:'营销策划',photo:'摄影',uiux:'UI/UX',documentary:'纪录片',theatre:'戏剧',video:'项目宣传视频',materials:'项目材料选页',note:'以下展示项目原始材料。',close:'关闭图片',light:'切换白天主题',dark:'切换夜间主题',menu:'菜单',error:'项目暂时无法加载，请返回项目列表。'}};function save(k,v){try{localStorage.setItem(k,v)}catch(e){}}function themeLabel(){$('#theme').innerHTML=themeIcon();$('#theme').setAttribute('aria-label',copy[lang][document.documentElement.dataset.theme==='dark'?'light':'dark'])}
 function render(){
  document.documentElement.lang=lang;
@@ -15,7 +15,8 @@ function render(){
  const article=document.createElement('article');article.className='project-article';
  const blocks=project.article||project.sections?.flatMap(section=>[{heading:section.title,level:2},{text:section.text}])||[];
  blocks.forEach(block=>{
-  if(block.heading){const h=document.createElement('h2');h.textContent=block.heading[lang];article.append(h)}
+  if(block.caseStudy){article.append(makeCaseStudy(block.caseStudy,lang))}
+  else if(block.heading){const h=document.createElement('h2');h.textContent=block.heading[lang];article.append(h)}
   else if(block.text){const p=document.createElement('p');if(block.leadIn){const strong=document.createElement('strong');strong.textContent=block.leadIn[lang]+(lang==='zh'?'：':': ');p.append(strong,document.createTextNode(block.text[lang]))}else p.textContent=block.text[lang];if(block.kind==='contribution')p.className='contribution-note';article.append(p)}
   else if(block.link){const a=document.createElement('a');a.className='project-reference';a.href=block.link.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=block.link.label[lang];article.append(a)}
   else if(block.figures){const group=document.createElement('div');group.className='article-figures'+(block.figures.length>1?' article-figure-pair':'');block.figures.forEach(id=>{const item=project.images.find(i=>i.id===id);if(item)group.append(makeArticleFigure(item,lang))});article.append(group)}
@@ -32,7 +33,7 @@ function render(){
 }
 function makeProjectImage(item,language){const figure=document.createElement('figure'),button=document.createElement('button'),img=document.createElement('img');img.src=item.src.startsWith('data:')?item.src:'../../'+item.src;img.alt=item.caption?.[language]||'';img.loading='lazy';if(item.width)img.width=item.width;if(item.height)img.height=item.height;button.setAttribute('aria-label',img.alt||copy[language].materials);button.append(img);button.onclick=()=>{const dialog=$('#lightbox');dialog.querySelector('.gallery-enlargement')?.remove();$('#full-image').hidden=false;$('#full-image').src=img.src;$('#full-image').alt=img.alt;$('#image-caption').textContent=img.alt;dialog.showModal()};figure.append(button);return figure}
 function makeProjectVideo(item,language){const figure=document.createElement('figure'),video=document.createElement('video');figure.className='video-figure'+(item.portrait?' portrait-video':'');video.controls=true;video.preload='none';video.playsInline=true;video.src='../../'+item.src;if(item.poster)video.poster='../../'+item.poster;video.setAttribute('aria-label',item.caption?.[language]||copy[language].video);video.addEventListener('play',()=>$$('video').forEach(other=>{if(other!==video)other.pause()}));figure.append(video);return figure}
-$('#language').onclick=()=>{$$('video').forEach(video=>video.pause());lang=lang==='en'?'zh':'en';save('sadie-language',lang);render()};$('#theme').onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;save('sadie-theme',theme);themeLabel()};matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{let override;try{override=localStorage.getItem('sadie-theme')}catch(e){}if(!override){document.documentElement.dataset.theme=e.matches?'dark':'light';themeLabel()}});$('#menu').onclick=()=>$('#menu').setAttribute('aria-expanded',String($('#nav').classList.toggle('open')));$('#close').onclick=()=>$('#lightbox').close();document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#nav').classList.remove('open');$('#menu').setAttribute('aria-expanded','false')}});$('#lightbox').onclick=e=>{if(e.target===$('#lightbox')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}};$('#year').textContent=new Date().getFullYear();render();fetch('../../projects.json?v=gagabang-20261112-12',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{project=data.find(p=>p.id===document.body.dataset.project);if(!project)throw Error();render()}).catch(()=>{$('#project-content').textContent=copy[lang].error});
+$('#language').onclick=()=>{$$('video').forEach(video=>video.pause());lang=lang==='en'?'zh':'en';save('sadie-language',lang);render()};$('#theme').onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;save('sadie-theme',theme);themeLabel()};matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{let override;try{override=localStorage.getItem('sadie-theme')}catch(e){}if(!override){document.documentElement.dataset.theme=e.matches?'dark':'light';themeLabel()}});$('#menu').onclick=()=>$('#menu').setAttribute('aria-expanded',String($('#nav').classList.toggle('open')));$('#close').onclick=()=>$('#lightbox').close();document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#nav').classList.remove('open');$('#menu').setAttribute('aria-expanded','false')}});$('#lightbox').onclick=e=>{if(e.target===$('#lightbox')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}};$('#year').textContent=new Date().getFullYear();render();fetch('../../projects.json?v=portfolio-20261112-13',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{project=data.find(p=>p.id===document.body.dataset.project);if(!project)throw Error();prepareProject(project);render()}).catch(()=>{$('#project-content').textContent=copy[lang].error});
 
 function renderProjectGalleries(parent,galleries,language){
  const labels=language==='zh'?{previous:'上一张',next:'下一张',open:'放大查看',gallery:'作品画廊',prevShort:'前',nextShort:'后'}:{previous:'Previous',next:'Next',open:'View larger',gallery:'Photo gallery',prevShort:'Prev',nextShort:'Next'};
@@ -81,4 +82,34 @@ function openProjectFilm(item,language){
  const close=document.createElement('button');close.className='film-close';close.setAttribute('aria-label',language==='zh'?'关闭视频':'Close video');close.textContent='×';close.onclick=()=>dialog.close();
  const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';video.src='../../'+item.src;video.poster='../../'+item.poster;video.setAttribute('aria-label',item.caption[language]);
  dialog.append(close,video);dialog.showModal();close.focus();video.play().catch(()=>{});
+}
+
+// Compact case studies pair the narrative with its supporting post and results.
+function makeCaseStudy(item,language){
+ const section=document.createElement('section');section.className='compact-case';
+ const heading=document.createElement('h2');heading.textContent=item.heading[language];
+ const grid=document.createElement('div');grid.className='case-layout';
+ const text=document.createElement('div');text.className='case-narrative';
+ const summary=document.createElement('p');summary.className='case-summary';const strong=document.createElement('strong');strong.textContent=item.summary[language];summary.append(strong);text.append(summary);
+ item.paragraphs.forEach(value=>{const p=document.createElement('p');p.textContent=value[language];text.append(p)});
+ const media=document.createElement('aside');media.className='case-evidence';
+ const image=project.images.find(image=>image.id===item.figure);if(image)media.append(makeArticleFigure(image,language));
+ const stats=document.createElement('p');stats.className='case-results';stats.textContent=item.metrics[language];media.append(stats);
+ grid.append(text,media);section.append(heading,grid);return section;
+}
+
+function prepareProject(item){
+ if(item.id==='wuerli')item.videos=item.videos.filter(video=>video.id!=='rain');
+ if(item.id!=='gagabang')return;
+ item.images.forEach(image=>{if(image.id==='guide')image.crop=[.022,.008,.955,.765];if(image.id==='mbti')image.crop=[.025,.01,.943,.70]});
+ const source=item.article,blocks=[];
+ for(let i=0;i<source.length;i++){
+  const heading=source[i],stats=source[i+1],figures=source[i+2];
+  if(heading.heading&&stats?.kind==='contribution'&&figures?.figures){
+   const detail={heading:heading.heading,figure:figures.figures[0],summary:{},metrics:{},paragraphs:[]};
+   for(const language of ['en','zh']){const parts=stats.text[language].split(language==='zh'?'｜':' | ');detail.metrics[language]=parts[0];detail.summary[language]=parts[1]||''}
+   i+=2;while(source[i+1]?.text){detail.paragraphs.push(source[++i].text)}blocks.push({caseStudy:detail});
+  }else blocks.push(heading);
+ }
+ item.article=blocks;
 }
