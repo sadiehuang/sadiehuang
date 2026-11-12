@@ -4304,8 +4304,8 @@
     },
     "cover": "assets/theatre/thunderstorm.webp",
     "content": {
-      "zh": "2023年10月17日，北师大北国剧社的学生版《雷雨》在北京人艺曹禺剧场上演。在人艺老师的指导下，我们用三个多月的准备、近200小时的排练，将这部经典搬上舞台。",
-      "en": "On 17 October 2023, Beiguo Drama Society at Beijing Normal University brought its student production of Thunderstorm to Beijing People’s Art Theatre’s Cao Yu Theatre. With guidance from the theatre’s professionals, we prepared for more than three months and rehearsed for nearly 200 hours."
+      "zh": "",
+      "en": ""
     },
     "images": [],
     "sections": [],
@@ -4345,11 +4345,35 @@
     ],
     "article": [
       {
+        "kind": "contribution",
         "text": {
-          "zh": "我作为北国剧社一方的项目负责人，从选题初期到最终演出全程参与。忙碌之余，我还为活动制作了三集幕后纪录片，记录剧组入场、排练和演出的过程。",
-          "en": "As the project lead representing Beiguo Drama Society, I was involved from the initial choice of play through to the final performance. In my spare time, I also made a three-part behind-the-scenes documentary, following the team’s arrival at the theatre, rehearsals and performance."
-        },
-        "kind": "contribution"
+          "en": "As the project lead representing Beiguo Drama Society, I was involved from the initial choice of play through to the final performance. I also filmed and edited a three-part behind-the-scenes documentary. Filming: Canon EOS 850D and a smartphone. Editing: Adobe Premiere Pro (Pr).",
+          "zh": "我作为北国剧社一方的项目负责人，从选题初期到最终演出全程参与，并拍摄、剪辑了三集幕后纪录片。拍摄工具：佳能 EOS 850D 和手机；剪辑工具：Adobe Premiere Pro（Pr）。"
+        }
+      },
+      {
+        "text": {
+          "en": "On 17 October 2023, Beiguo Drama Society at Beijing Normal University brought its student production of Thunderstorm to Beijing People’s Art Theatre’s Cao Yu Theatre. This was the society’s first major in-person production after the pandemic. Working with one of China’s leading theatres was a rare and valuable opportunity, and the project received close attention from the university, our college and the society, as well as coverage on television and in newspapers.",
+          "zh": "2023年10月17日，北京师范大学北国剧社的学生版《雷雨》在北京人民艺术剧院曹禺剧场上演。这是剧社在疫情后的第一次大型线下演出，能够与北京人艺这样全国顶尖的剧院合作，是一次难得而珍贵的机会。学校、学院和剧社都对项目高度重视，电视台与报纸也进行了报道。"
+        }
+      },
+      {
+        "text": {
+          "en": "As head of Beiguo Drama Society, I devoted all my time outside classes to making the production happen. Externally, I liaised with the theatre’s professional mentors and coordinated venue access and schedules. Internally, I organised rehearsals, tracked progress, coordinated the budget and expenses, and kept cast and crew aligned on responsibilities and deadlines. Bringing these strands together meant keeping communication clear and resolving practical issues as they arose.",
+          "zh": "作为北国剧社的负责人，我投入了全部课余时间，全力推进这次演出。对外，我联络人艺的指导老师，协调剧场场地与时间安排；对内，我组织排练、跟进进度、统筹预算与支出，并协调演员和幕后团队的分工与时间节点。在筹备过程中，我持续沟通各方需求，及时处理执行中的问题，推动各项工作顺利衔接。"
+        }
+      },
+      {
+        "text": {
+          "en": "With guidance from the theatre’s professionals, we prepared for more than three months and rehearsed for nearly 200 hours. The production was a great success, bringing the team’s sustained commitment and hard work to the stage.",
+          "zh": "在人艺专业老师的指导下，我们进行了三个多月的准备和近200小时的排练。最终，演出大获成功，团队长期投入的时间与心血在舞台上得到了呈现。"
+        }
+      },
+      {
+        "text": {
+          "en": "The society’s members had given so much time and energy to this production that I wanted to preserve the experience for everyone and share our work with a wider audience. Alongside my production responsibilities, I filmed during our time at the theatre, from arrival and rehearsals to the performance, and edited the footage into a three-part documentary. It became both a keepsake of a special shared experience and a way to introduce Beiguo Drama Society to new audiences.",
+          "zh": "剧社成员为这次演出投入了大量时间和精力。我希望为大家留下一段美好的共同回忆，也借此让更多人了解北国剧社。因此，在承担项目统筹工作的同时，我在进剧场、排练和演出期间拍摄素材，并将其剪辑成三集幕后纪录片，记录这段珍贵的经历，也用于剧社宣传。"
+        }
       },
       {
         "episodes": true
