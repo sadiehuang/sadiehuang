@@ -308,3 +308,8 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 @media(max-width:780px){.project-case-study .film-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
 @media(max-width:480px){.project-case-study .film-grid{grid-template-columns:1fr;gap:22px}.project-case-study .film-card figcaption{min-height:0}}
 @media(prefers-reduced-motion:reduce){.project-case-study .film-cover img,.project-case-study .film-card{transition:none}}
+
+/* Keep project introductions at the body size; preserve strong highlights. */
+.project-detail .project-lead{font-size:18px;line-height:1.85}
+.project-lead .intro-reference{font-size:inherit;color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.project-detail .project-lead{font-size:16px;line-height:1.8}}
