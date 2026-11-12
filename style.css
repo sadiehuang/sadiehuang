@@ -337,3 +337,6 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 .project-card[data-project-id="wuerli"] .project-link:hover .project-cover img,
 .project-card[data-project-id="wuerli"] .project-link:focus-visible .project-cover img{transform:scale(1.125)}
 }
+/* Theme-aware lower-level project headings and inline labels. */
+.project-case-study .project-article :is(h2,h3,h4,h5,h6){color:var(--accent);font-weight:600}
+.project-case-study .project-article>p>strong:first-child{color:var(--accent);font-weight:700}
