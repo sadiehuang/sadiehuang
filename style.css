@@ -370,3 +370,6 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 @media(max-width:600px){body[data-project="jingxi"] .article-figure-pair{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body[data-project="jingxi"] .article-figure-pair figure{min-width:0;margin:18px 0 24px}}
 
 .home-introduction .large:last-of-type{margin-bottom:40px}
+
+/* Keep the extended campaign contribution in distinct paragraphs. */
+body[data-project="silent"] .contribution-note{white-space:pre-line}
