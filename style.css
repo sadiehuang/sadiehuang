@@ -356,8 +356,8 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 .home-introduction .large{font-size:clamp(19px,1.5vw,22px);line-height:1.65;margin:0 0 28px}
 .home-introduction .hero-contact{margin:8px 0 30px;gap:12px 24px;font-size:17px;font-weight:600}
 .home-introduction .hero-contact a{display:inline-block;padding:6px 0;color:var(--accent);text-decoration-thickness:1px;text-underline-offset:6px;overflow-wrap:anywhere}
-.home-explore{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;align-self:flex-start;padding:14px 24px;border:1px solid var(--fg);border-radius:32px;background:var(--fg);color:var(--bg);font-size:16px;font-weight:600;transition:background .2s,color .2s}
-.home-explore:hover{background:transparent;color:var(--fg)}
+.home-explore{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;align-self:flex-end;padding:14px 28px;border:1px solid var(--fg);border-radius:32px;background:transparent;color:var(--fg);font-size:16px;font-weight:600;transition:background .2s,color .2s}
+.home-explore:hover{background:var(--fg);color:var(--bg)}
 .unbreakable-word{display:inline-block;white-space:nowrap;overflow-wrap:normal;word-break:normal}
 @media(max-width:700px){
  .hero.home-introduction,.hero.home-introduction.has-portraits{grid-template-columns:minmax(0,1fr)}
