@@ -316,7 +316,7 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 
 /* Carefully framed homepage covers and compact supporting case materials. */
 .project-card[data-project-id="wuerli"] .project-cover img{transform:scale(1.125);object-fit:cover;object-position:50% 50%}
-.project-case-study .project-article>.contribution-note{padding:12px 18px;margin:20px 0 26px;border-left:2px solid var(--accent);background:var(--soft)}
+.project-case-study .project-article>.contribution-note{padding:12px 18px;margin:20px 0 26px;border:0;background:var(--soft)}
 .project-case-study .compact-case{margin:40px 0 44px}
 .project-case-study .compact-case h2{font-size:18px;font-weight:700;line-height:1.65;letter-spacing:normal;margin:0 0 6px}
 .case-layout{display:flow-root}
@@ -338,5 +338,13 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 .project-card[data-project-id="wuerli"] .project-link:focus-visible .project-cover img{transform:scale(1.125)}
 }
 /* Theme-aware lower-level project headings and inline labels. */
-.project-case-study .project-article :is(h2,h3,h4,h5,h6){color:var(--accent);font-weight:600}
-.project-case-study .project-article>p>strong:first-child{color:var(--accent);font-weight:700}
+.project-case-study .project-article :is(h2,h3,h4,h5,h6){color:var(--fg);font-weight:700}
+.project-case-study .project-article>p>strong:first-child{color:var(--accent);font-weight:400}
+/* A more spacious opening: generous vertical padding and clearer text groups. */
+.home-introduction .home-intro{padding-top:72px;padding-bottom:72px}
+.home-introduction .large{line-height:1.65;margin-bottom:32px}
+.home-introduction .hero-contact{margin-top:26px}
+.home-introduction .skills-panel{margin-top:36px;padding-top:28px}
+.home-introduction .skills-panel .skill-groups{margin-top:24px;gap:18px}
+@media(min-width:1101px){.home-introduction .home-intro{padding-top:80px;padding-bottom:80px}}
+@media(max-width:700px){.home-introduction .home-intro{padding-top:64px;padding-bottom:64px}.home-introduction .large{margin-bottom:28px}.home-introduction .skills-panel{margin-top:32px;padding-top:24px}.home-introduction .skills-panel .skill-groups{gap:16px}}
