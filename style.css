@@ -373,3 +373,6 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 
 /* Keep the extended campaign contribution in distinct paragraphs. */
 body[data-project="silent"] .contribution-note{white-space:pre-line}
+/* Match the Douyin introduction to the film overview and separate the contribution. */
+body[data-project="silent"] .project-article>.project-introduction{color:var(--fg);margin-bottom:56px}
+body[data-project="silent"] .project-article>.project-introduction>strong{color:var(--accent);font-weight:700}
