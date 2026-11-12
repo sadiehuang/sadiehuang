@@ -311,7 +311,7 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 
 /* Keep project introductions at the body size; preserve strong highlights. */
 .project-detail .project-lead{font-size:18px;line-height:1.85}
-.project-lead .intro-reference{font-size:inherit;color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.intro-reference{font-size:inherit;color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 @media(max-width:600px){.project-detail .project-lead{font-size:16px;line-height:1.8}}
 
 /* Carefully framed homepage covers and compact supporting case materials. */
