@@ -906,8 +906,8 @@
     "introductionLink": {
       "url": "https://xhslink.cn/o/3LgIP6StoRU",
       "label": {
-        "zh": "查看 Gagabang 小红书主页 ↗",
-        "en": "Visit Gagabang on Xiaohongshu ↗"
+        "zh": "查看 Gagabang 小红书主页",
+        "en": "Visit Gagabang on Xiaohongshu"
       }
     },
     "coverFit": "cover"
@@ -2223,8 +2223,8 @@
     "introductionLink": {
       "url": "https://xhslink.cn/o/aswKIbU02D",
       "label": {
-        "en": "View my Xiaohongshu profile →",
-        "zh": "查看我的小红书主页 →"
+        "en": "View my Xiaohongshu profile",
+        "zh": "查看我的小红书主页"
       }
     }
   },
