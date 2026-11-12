@@ -4302,14 +4302,24 @@
       "en": "Thunderstorm: Behind the Scenes",
       "zh": "《雷雨》：幕后纪录片"
     },
-    "cover": "assets/theatre/thunderstorm.webp",
+    "cover": "assets/thunderstorm-cover.webp",
     "content": {
       "zh": "",
       "en": ""
     },
-    "images": [],
+    "images": [
+      {
+        "src": "assets/theatre/thunderstorm.webp",
+        "width": 2200,
+        "height": 1650,
+        "caption": {
+          "en": "Thunderstorm production poster",
+          "zh": "《雷雨》演出海报"
+        }
+      }
+    ],
     "sections": [],
-    "coverFit": "fill",
+    "coverFit": "cover",
     "year": "2023",
     "videos": [
       {
@@ -4358,6 +4368,9 @@
         }
       },
       {
+        "image": "assets/theatre/thunderstorm.webp"
+      },
+      {
         "text": {
           "en": "I devoted all my time outside classes to making the production happen. Externally, I liaised with the theatre’s professional mentors and coordinated venue access and schedules. Internally, I organised rehearsals, tracked progress, coordinated the budget and expenses, and kept cast and crew aligned on responsibilities and deadlines. Bringing these strands together meant keeping communication clear and resolving practical issues as they arose.",
           "zh": "我投入了全部课余时间，全力推进这次演出。对外，我联络人艺的指导老师，协调剧场场地与时间安排；对内，我组织排练、跟进进度、统筹预算与支出，并协调演员和幕后团队的分工与时间节点。在筹备过程中，我持续沟通各方需求，及时处理执行中的问题，推动各项工作顺利衔接。"
@@ -4372,7 +4385,8 @@
       {
         "episodes": true
       }
-    ]
+    ],
+    "coverPosition": "65% 50%"
   },
   {
     "id": "words",
