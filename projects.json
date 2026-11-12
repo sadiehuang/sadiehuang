@@ -387,7 +387,7 @@
   {
     "id": "silent",
     "contentHighlights": {"zh":["中国内地累计票房达 13.51 亿元","2024 年暑期档票房亚军"],"en":["RMB 1.351 billion","ranked second in the 2024 summer season"]},
-    "introductionLink": {"url":"https://filecache.investorroom.com/mr5irasia_maoyan_sc/370/2024%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf","label":{"zh":"票房来源","en":"Box office source"}},
+    "introductionLink": {"url":"https://www.imdb.com/title/tt32553390/","label":{"zh":"IMDb 影片页面","en":"View on IMDb"}},
     "category": "marketing",
     "title": {
       "en": "A Place Called Silence: Short-Video Campaign",
