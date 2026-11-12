@@ -329,3 +329,11 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 .project-case-study .case-results{font-size:13px;line-height:1.6;color:var(--muted);margin:12px 0 0;padding:10px 0 0;border-top:1px solid var(--line)}
 @media(max-width:850px){.case-layout{grid-template-columns:minmax(0,1fr) 220px;gap:24px}}
 @media(max-width:650px){.case-layout{grid-template-columns:1fr;gap:20px}.case-evidence{width:min(100%,280px);margin:0 auto}.project-case-study .case-narrative p{font-size:16px;line-height:1.8}.project-case-study .compact-case h2{font-size:16px}.project-case-study .compact-case{margin:28px 0 32px}}
+
+/* Keep the cropped Wuerli cover while zooming on hover and keyboard focus. */
+.project-card[data-project-id="wuerli"] .project-link:hover .project-cover img,
+.project-card[data-project-id="wuerli"] .project-link:focus-visible .project-cover img{transform:scale(1.175)}
+@media(prefers-reduced-motion:reduce){
+.project-card[data-project-id="wuerli"] .project-link:hover .project-cover img,
+.project-card[data-project-id="wuerli"] .project-link:focus-visible .project-cover img{transform:scale(1.125)}
+}
