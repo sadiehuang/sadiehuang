@@ -291,17 +291,20 @@ body[data-project] header,body[data-project] .project-contact{border-top:0;borde
 @media(max-width:600px){.project-case-study .project-article>h2,.project-case-study .gallery-header h2{font-size:16px;line-height:1.8}.project-case-study .project-article>.contribution-note{padding:20px}.project-case-study .gallery-stage{padding:0 46px}.project-case-study .gallery-side{width:36px;height:36px}}
 
 /* Film cards show the full collection at a glance. */
-.project-case-study .film-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 26px;margin:18px 0 44px}
-.project-case-study .project-article .film-card{margin:0;min-width:0}
+.project-case-study .film-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:38px 0 44px}
+.project-case-study .project-article .film-card{margin:0;min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--soft);box-shadow:0 3px 14px #00000007;transition:transform .2s ease,box-shadow .2s ease}
+.project-case-study .film-card:hover{transform:translateY(-3px);box-shadow:0 8px 22px #00000010}
+.project-case-study .film-cover:focus-visible{outline:3px solid var(--fg);outline-offset:-4px}
 .project-case-study .film-cover{position:relative;display:block;width:100%;aspect-ratio:1;overflow:hidden;border:0;padding:0;background:var(--soft);cursor:pointer}
 .project-case-study .film-cover img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
 .project-case-study .film-cover:hover img{transform:scale(1.025)}
-.film-play{position:absolute;left:18px;bottom:18px;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:rgba(255,251,245,.94);color:#28211d;box-shadow:0 2px 12px #0002}
+.film-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:rgba(255,251,245,.94);color:#28211d;box-shadow:0 2px 12px #0002}
 .film-play svg{width:18px;height:18px;fill:currentColor;transform:translateX(1px)}
-.project-case-study .film-card figcaption{display:block;color:var(--muted);font-size:15px;line-height:1.65;margin:12px 0 0;text-align:left}
+.project-case-study .film-card figcaption{display:block;color:var(--muted);font-size:14px;line-height:1.55;margin:0;padding:16px 18px;min-height:75px;box-sizing:border-box;text-align:left}
 .film-dialog{position:fixed;inset:0;width:fit-content;max-width:92vw;max-height:94vh;border:0;padding:48px 16px 16px;margin:auto;background:var(--bg);color:var(--fg);overflow:visible}
 .film-dialog::backdrop{background:rgba(0,0,0,.8)}
 .film-dialog video{display:block;width:auto;max-width:calc(92vw - 32px);max-height:calc(90vh - 64px);margin:0 auto;background:#000}
 .film-dialog .film-close{position:absolute;right:12px;top:8px;width:32px;height:32px;border:0;border-radius:50%;background:var(--soft);color:var(--fg);font-size:26px;line-height:1;cursor:pointer}
-@media(max-width:600px){.project-case-study .film-grid{gap:28px;grid-template-columns:1fr}.project-case-study .film-card figcaption{font-size:14px}}
-@media(prefers-reduced-motion:reduce){.project-case-study .film-cover img{transition:none}}
+@media(max-width:780px){.project-case-study .film-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(max-width:480px){.project-case-study .film-grid{grid-template-columns:1fr;gap:22px}.project-case-study .film-card figcaption{min-height:0}}
+@media(prefers-reduced-motion:reduce){.project-case-study .film-cover img,.project-case-study .film-card{transition:none}}
