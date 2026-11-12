@@ -386,6 +386,8 @@
   },
   {
     "id": "silent",
+    "contentHighlights": {"zh":["中国内地累计票房达 13.51 亿元","2024 年暑期档票房亚军"],"en":["RMB 1.351 billion","ranked second in the 2024 summer season"]},
+    "introductionLink": {"url":"https://filecache.investorroom.com/mr5irasia_maoyan_sc/370/2024%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf","label":{"zh":"票房来源","en":"Box office source"}},
     "category": "marketing",
     "title": {
       "en": "A Place Called Silence: Short-Video Campaign",
@@ -393,8 +395,8 @@
     },
     "cover": "assets/covers/silent.webp",
     "content": {
-      "en": "A short-video campaign for A Place Called Silence, built around genre insights, the film’s strengths, and audience emotions, with a phased content and creator strategy.",
-      "zh": "围绕类型洞察、影片卖点与观众情绪制定的《默杀》短视频营销方案，结合分阶段内容策略与达人传播。"
+      "en": "A Place Called Silence (2024) is a crime thriller directed by Sam Quah, exploring school bullying, revenge and the consequences of collective silence. The film earned RMB 1.351 billion at the mainland China box office and ranked second in the 2024 summer season.",
+      "zh": "《默杀》是由柯汶利执导、于 2024 年上映的犯罪悬疑电影，围绕校园霸凌、复仇与集体沉默展开。影片中国内地累计票房达 13.51 亿元，位列 2024 年暑期档票房亚军。"
     },
     "images": [
       {
@@ -480,8 +482,8 @@
     "article": [
       {
         "text": {
-          "en": "During my marketing internship at Maoyan Entertainment, I independently carried out market research, data analysis, initial campaign planning, proposal consolidation and PowerPoint production under my mentor’s guidance. I also participated in team brainstorming sessions. The resulting 53-page proposal connects comparable-film analysis, the film’s strengths and risks, release-stage messaging, content ideas and creator-led events into a short-video campaign plan for A Place Called Silence.",
-          "zh": "在猫眼娱乐市场营销实习期间，我在 mentor 的指导下，独立完成市场调研、数据分析、初步策划、方案汇总和 PPT 制作，并参与组会头脑风暴。最终形成的53页《默杀》短视频推广方案，将同类影片分析、影片优势与风险、上映阶段信息、内容选题及达人活动串联为完整营销方案。"
+          "en": "During my marketing internship at Maoyan Entertainment, I independently carried out market research, data analysis, initial campaign planning, proposal consolidation and PowerPoint production under my mentor’s guidance. I used questionnaires for market research, SPSS for data cleaning, Excel for data analysis, and Canva for charts, then created presentation slides in Canva and PowerPoint.",
+          "zh": "在猫眼娱乐市场营销实习期间，我在 mentor 的指导下，独立完成市场调研、数据分析、初步策划、方案汇总和 PPT 制作。我通过问卷开展市场调研，使用 SPSS 清洗数据、Excel 分析数据、Canva 制作图表，并结合 Canva 和 PowerPoint 完成演示文稿。"
         },
         "kind": "contribution"
       },
