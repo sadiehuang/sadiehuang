@@ -28,6 +28,7 @@ function prepareWordsProject(item) {
     body[data-project="words"] .words-character-pair{grid-template-columns:1.333fr 1.501fr;gap:20px;align-items:center}
     body[data-project="words"] .words-stills button{border-radius:5px;overflow:hidden}
     body[data-project="words"] .poster-film{margin-left:auto;margin-right:auto}
+    body[data-project="words"] .poster-film figcaption{display:none}
     @media(max-width:600px){
       body[data-project="words"] .words-stills{margin:28px auto 36px}
       body[data-project="words"] .words-set-pair{grid-template-columns:1fr;gap:18px}
