@@ -4575,8 +4575,8 @@
     "id": "words",
     "category": "theatre",
     "title": {
-      "en": "Words, Words, Words",
-      "zh": "《词语，词语，词语》"
+      "en": "Words Words Words",
+      "zh": "《Words Words Words》"
     },
     "cover": "assets/theatre/words.webp",
     "content": {
@@ -4606,24 +4606,89 @@
     ],
     "article": [
       {
-        "leadIn": {
-          "en": "About the project",
-          "zh": "项目介绍"
-        },
         "text": {
-          "en": "WORDS is a 20-minute one-act production by Beiguo Drama Society, adapted from David Ives’s Words, Words, Words and directed by my super talented friend Leah Liu (柳依依). The play follows three monkeys tasked with typing indefinitely, on the premise that they will eventually produce Hamlet by chance.",
-          "zh": "《WORDS》是北国剧社制作的一部约20分钟的单幕话剧，改编自 David Ives 的《Words, Words, Words》，由我才华出众的好友柳依依（Leah Liu）执导。故事围绕三只被要求不停打字的猴子展开：按照概率，它们终有一天能够随机敲出一部《哈姆雷特》。"
+          "zh": "《Words Words Words》是北国剧社制作的一部约20分钟的单幕话剧，改编自美国剧作家 David Ives 的同名剧本，由我才华出众的好友柳依依（Leah Liu）执导。三只名叫弥尔顿、斯威夫特和卡夫卡的猴子，被置于一项打字实验中：按照概率，只要不断敲击键盘，它们终有一天能够随机打出一部《哈姆雷特》。在等待这个奇迹的过程中，它们工作、争论、玩耍，也试图理解自己的处境。",
+          "en": "Words Words Words is a 20-minute one-act production by Beiguo Drama Society, adapted from the play of the same name by American playwright David Ives and directed by my super talented friend Leah Liu (柳依依). Three monkeys named Milton, Swift and Kafka are placed in a typing experiment: according to probability, if they keep hitting the keys, they will eventually produce Hamlet by chance. While waiting for this miracle, they work, argue, play and try to make sense of their situation."
+        },
+        "inlineLink": {
+          "url": "https://drive.google.com/file/d/1mn41y2CKqn0PmTDW4Gq7wgSCKAhbqdt9/view?usp=sharing",
+          "label": {
+            "zh": "观看完整舞台录像 ↗",
+            "en": "Watch the full performance ↗"
+          }
         }
       },
       {
+        "text": {
+          "zh": "我负责本剧的戏剧构作、表演指导、舞美与音效设计，以及舞台监督。我还制作了一部幕后短片，用于演出宣传，也为这段共同创作的经历留下纪念。",
+          "en": "I was responsible for dramaturgy, acting coaching, set and sound design, and stage management. I also created a behind-the-scenes short film to promote the production and preserve a memory of our time creating it together."
+        },
         "kind": "contribution",
         "leadIn": {
-          "en": "My contribution",
-          "zh": "个人贡献"
-        },
+          "zh": "个人贡献",
+          "en": "My contribution"
+        }
+      },
+      {
+        "heading": {
+          "zh": "剧作内核",
+          "en": "Dramaturgical approach"
+        }
+      },
+      {
         "text": {
-          "en": "I was responsible for dramaturgy, acting coaching, set and sound design, and stage management. I also created a behind-the-scenes short film to preserve our shared experience and promote the production.",
-          "zh": "我负责本剧的戏剧构作、表演指导、舞美与音效设计，以及舞台监督。我还制作了一部幕后短片，记录这段共同经历，并用于演出宣传。"
+          "zh": "这个故事最吸引我的，是它把关于命运、自由与意义的问题，交给了三只会饿、会害怕、会做白日梦的小猴子。实验以《哈姆雷特》作为成功的标准，它们却并不真正理解自己被要求完成的任务。谁规定了什么值得追求？当一个目标被赋予如此崇高的意义，为它付出的一生，又由谁来衡量？",
+          "en": "What drew me to this story was the way it entrusts questions of fate, freedom and meaning to three little monkeys who get hungry, feel afraid and daydream. The experiment defines success as producing Hamlet, yet they do not truly understand the task they have been given. Who decides what is worth pursuing? When a goal is invested with such lofty significance, who measures the life spent in its service?"
+        }
+      },
+      {
+        "text": {
+          "zh": "三只猴子对此有着不同的回应。弥尔顿在既定秩序中寻找安稳，把日常安排成可以忍受的生活；斯威夫特质疑规则、酝酿反抗，却同样需要面对饥饿和恐惧；卡夫卡在不同的声音之间张望，带着天真、好奇与犹疑，摸索这个世界的道理。它们身上有我们熟悉的矛盾：向往远方，也依赖眼前的安全；看见不公，也未必立即拥有行动的勇气。",
+          "en": "Each monkey responds differently. Milton finds security within the established order, arranging daily life into something bearable. Swift questions the rules and plots resistance, while still having to face hunger and fear. Kafka looks between competing voices, approaching the world with innocence, curiosity and hesitation. Their contradictions are familiar: longing for elsewhere while depending on the safety of the present; recognising injustice without always finding the courage to act."
+        }
+      },
+      {
+        "text": {
+          "zh": "我们希望这部戏为这些姿态都留出位置。审慎、愤怒、茫然，乃至暂时放下问题、吃根香蕉，都可以成为生活的一部分。小猴子的生命包含打字的任务，也包含友谊、玩笑、食物和关于非洲大草原的梦想。即使没有写出《哈姆雷特》，这些经历依然值得被看见。",
+          "en": "We wanted the production to make room for all these responses. Caution, anger, uncertainty, even putting the questions aside for a moment to eat a banana, can all be part of living. The monkeys’ lives contain the task of typing, but also friendship, jokes, food and dreams of the African savanna. Even without producing Hamlet, those experiences deserve to be seen."
+        }
+      },
+      {
+        "heading": {
+          "zh": "美学风格",
+          "en": "Aesthetic approach"
+        }
+      },
+      {
+        "text": {
+          "zh": "我喜欢这部戏轻盈、荒诞，又带一点温柔的气质。它容纳严肃的思考，也允许情绪的跳跃和插科打诨：上一刻还在追问“生存还是毁灭”，下一刻就可能被一根香蕉打断。宏大的问题与细小的欲望并存，让小猴子们既能够思考命运，也能够理直气壮地关心下一顿饭。",
+          "en": "I love the play’s lightness, absurdity and underlying tenderness. It makes room for serious thought as well as sudden shifts in mood and comic interruptions: one moment brings “to be or not to be”; the next, a banana. Grand questions coexist with small desires, allowing the monkeys to ponder their fate while remaining unapologetically concerned about their next meal."
+        }
+      },
+      {
+        "text": {
+          "zh": "在进行舞美设计时，我的核心概念是“马戏团”。它既意味着游戏、奇观和热闹，也包含观看、训练与规训的关系。由此，舞台同时呈现出实验室与游乐园的样子：攀爬网、悬挂的圆环、彩旗和巨大的骰子，构成一个可以探索、攀爬和玩耍的空间；打字机、散落的纸张与投影中的杂乱词句，则不断提醒观众，这里的生活仍围绕着一项被指定的任务展开。",
+          "en": "The circus was my central concept for the set design. It suggests play, spectacle and excitement, while also involving observation, training and discipline. The stage therefore takes on the qualities of both a laboratory and a playground. A climbing net, suspended hoops, bunting and oversized dice create a space for exploration and play; typewriters, scattered sheets of paper and projected fragments of language keep reminding us that life here revolves around an assigned task."
+        },
+        "highlights": {
+          "zh": [
+            "“马戏团”"
+          ],
+          "en": [
+            "The circus"
+          ]
+        }
+      },
+      {
+        "text": {
+          "zh": "同一个空间可以带来快乐，也可以限制行动。小猴子们能够在其中嬉戏，却无法决定游戏的全部规则。这种自由与约束并存的状态，也延伸到了服装设计中：统一的白色衣裤暗示它们作为实验对象的身份，不对称的袜子则保留了各自顽皮、随性的气质。",
+          "en": "The same space can offer pleasure and restrict movement. The monkeys can play within it, but cannot decide all the rules of the game. This coexistence of freedom and constraint extends to the costumes: matching white tops and trousers suggest their status as experimental subjects, while mismatched socks preserve their playful, spontaneous personalities."
+        }
+      },
+      {
+        "text": {
+          "zh": "音乐和音效进一步放大了这种荒诞感。三只小猴朗诵时，都会响起气势恢宏的音乐，即使朗诵的内容未必配得上如此隆重的伴奏。斯威夫特发表复仇演讲时，《命运交响曲》标志性的开头赋予它一瞬间的英雄气概，又与眼前小猴子的身体、动作和处境形成诙谐的错位。声音既投入地支持角色的自我想象，也让观众看见这份想象与现实之间的距离。我希望舞美、声音与表演共同维持这样的节奏，让庄严、滑稽与脆弱并存。",
+          "en": "Music and sound heighten the absurdity. Each monkey’s recitation is accompanied by grand, sweeping music, even when the words hardly warrant such ceremony. The iconic opening of Beethoven’s Fifth Symphony briefly lends Swift’s revenge speech a heroic grandeur, creating a comic mismatch with the monkey’s body, movements and circumstances. Sound wholeheartedly supports the characters’ self-image while revealing its distance from reality. I wanted the set, sound and performances to sustain this rhythm together, allowing solemnity, comedy and vulnerability to coexist."
         }
       },
       {
@@ -4632,17 +4697,86 @@
         ]
       },
       {
-        "leadIn": {
-          "en": "Collaboration and learning",
-          "zh": "合作与新人培养"
-        },
-        "text": {
-          "en": "All cast and crew members were new to Beiguo Drama Society, so I also approached the production as an opportunity to help them find their place in the group through practical experience. I wanted the process to help them understand their responsibilities, discover how different roles depend on one another, and build confidence in contributing their own ideas. Supporting their learning and growth mattered to me as much as bringing the finished production to the stage.",
-          "zh": "这次演出的演员和幕后成员都是北国剧社的新成员，因此，我也把它视为一次通过实际创作帮助新人融入剧社的机会。我希望大家能够在完成一部作品的过程中，理解各自的职责，认识不同岗位如何相互配合，并逐渐找到表达想法、参与创作的信心。对我而言，演出的完成与团队成员的学习和成长同样重要。"
+        "heading": {
+          "zh": "表演理念与角色塑造",
+          "en": "Performance and character development"
         }
       },
       {
-        "image": "assets/theatre/words.webp"
+        "text": {
+          "zh": "“成为猴子”给了演员一种难得的自由。爬行、翻滚、张望、抓挠，以及对身边物件的好奇，让角色能够从身体的冲动出发，表达那些在人类的日常礼仪中容易被收起的情绪。在这层自由之下，每只猴子又有自己的思考方式与情感逻辑。我尤其在意，角色能否在短短20分钟里既鲜明可辨，又保留内心的矛盾与变化。",
+          "en": "“Becoming a monkey” gave the actors an unusual freedom. Crawling, rolling, looking around, scratching and exploring nearby objects allowed them to begin with physical impulses and express emotions often contained by everyday human manners. Within that freedom, each monkey still needed its own way of thinking and emotional logic. I was especially interested in making the characters immediately distinct within twenty minutes, while preserving their inner contradictions and capacity for change."
+        }
+      },
+      {
+        "text": {
+          "zh": "斯威夫特代表一种激进、有力量的反抗姿态。它愤世嫉俗，无法接受眼前秩序的合理性；这种对处境的不满，也让它无意间说出的《哈姆雷特》经典台词有了切实的情绪依据。与此同时，我们很反感这种特质往往会伴随的、传统意义上的“男性气质”。选角时，我们选择了一位身形较为瘦削的男演员，并在表演中保留角色的脆弱与退缩：它可以激情澎湃、张牙舞爪地高喊复仇与反抗暴政，也可以在同伴的攻击下迅速败退、服软。这些反差让它的反抗有了具体的身体与代价，也让这个形象更多面、更可爱。",
+          "en": "Swift embodies a radical, forceful spirit of resistance. Cynical and disillusioned, it cannot accept the legitimacy of the existing order; that frustration gives an emotional grounding to the famous lines from Hamlet it unknowingly speaks. At the same time, we disliked the conventional masculinity that often accompanies this kind of character. We cast a male actor with a relatively slight build and preserved the character’s vulnerability and tendency to retreat. Swift can passionately fling its limbs about and shout for revenge and resistance to tyranny, then quickly back down under an attack from its companions. These contrasts give its resistance a tangible body and a cost, making the character more complex and endearing."
+        },
+        "highlights": {
+          "zh": [
+            "斯威夫特代表一种激进、有力量的反抗姿态。"
+          ],
+          "en": [
+            "Swift embodies a radical, forceful spirit of resistance."
+          ]
+        }
+      },
+      {
+        "text": {
+          "zh": "弥尔顿则是老练、深沉的。它清楚自己难以与更强大的力量正面对抗，于是选择妥协，学习借助既有的规则和力量，为自己争取一点余地。我们希望保留这种清醒与无奈，同时让观众看见它仍有属于自己的表达欲：它没有写出实验所期待的《哈姆雷特》，却写出了自己的诗歌。在一个由外部目标支配的空间里，这也是它保存自我的方式。",
+          "en": "Milton is seasoned and introspective. Knowing that it cannot confront a stronger power head-on, it chooses compromise and learns to work with existing rules and forces to create a little room for itself. We wanted to preserve that mixture of clear-eyed understanding and resignation, while showing its continuing desire for self-expression. It does not produce the Hamlet the experiment expects, but writes poetry of its own. In a space governed by someone else’s objectives, this is one way of holding on to itself."
+        },
+        "highlights": {
+          "zh": [
+            "弥尔顿则是老练、深沉的。"
+          ],
+          "en": [
+            "Milton is seasoned and introspective."
+          ]
+        }
+      },
+      {
+        "text": {
+          "zh": "卡夫卡是一只迷茫、犹疑、徘徊不前的小猴子。两个同伴都有鲜明的立场，它却不愿在尚未理解事情之前，不明不白地站队。它不断张望、倾听，也经常与自己的玩具猴对话，让内心的挣扎和思考有了一个可以交谈的对象。玩具猴还承载了它更顽皮、爱凑热闹的一面，使它的迟疑之外，多了一层活泼而自由的生命力。最终，无意间写出《哈姆雷特》的，恰恰是卡夫卡。这可以被看作随机实验中的巧合，也可以被理解为命运的一次安排；而在角色的情感层面，它持续的思考、怀疑与追问，又让这个偶然的结果产生了意味深长的呼应。我们希望保留这些解释同时存在的可能，让观众带着自己的经历，理解这只小猴与命运相遇的时刻。",
+          "en": "Kafka is a little monkey caught in uncertainty, hesitation and indecision. Its companions have clear positions, but it is unwilling to take sides before understanding what is at stake. It keeps looking and listening, often talking to its toy monkey, giving its inner struggles and thoughts someone to address. The toy also carries its more mischievous, sociable side, bringing a lively, freer energy to its hesitation. In the end, it is Kafka who accidentally produces Hamlet. This can be seen as chance within a random experiment, or as an act of fate. Emotionally, its persistent thinking, doubt and questioning also lend the accidental result a meaningful resonance. We wanted these interpretations to remain open, allowing audiences to bring their own experiences to this monkey’s encounter with fate."
+        },
+        "highlights": {
+          "zh": [
+            "卡夫卡是一只迷茫、犹疑、徘徊不前的小猴子。"
+          ],
+          "en": [
+            "Kafka is a little monkey caught in uncertainty, hesitation and indecision."
+          ]
+        }
+      },
+      {
+        "heading": {
+          "zh": "合作与新人培养",
+          "en": "Collaboration and learning"
+        }
+      },
+      {
+        "text": {
+          "zh": "这次演出的演员和幕后成员都是北国剧社的新成员，因此，我也把它视为一次通过实际创作帮助新人融入剧社的机会。我希望大家在这个过程中理解各自的职责，认识不同岗位如何相互配合，并逐渐建立提出自己想法的信心。对我而言，支持他们的学习和成长，与将最终的作品搬上舞台同样重要。",
+          "en": "All cast and crew members were new to Beiguo Drama Society, so I also approached the production as an opportunity to help them find their place in the group through practical experience. I wanted the process to help them understand their responsibilities, discover how different roles depend on one another, and build confidence in contributing their own ideas. Supporting their learning and growth mattered to me as much as bringing the finished production to the stage."
+        }
+      },
+      {
+        "text": {
+          "zh": "最后，想分享导演 Leah 在创作总结里写下的话，我太喜欢了：",
+          "en": "Finally, I want to share these words from director Leah’s reflections on the production. I love them so much:"
+        }
+      },
+      {
+        "quote": {
+          "zh": "任何空间都可以视为一个牢笼、一个剧场，\n比如我们的头脑。\n任何空间也都可以视为一个实验场、一个游乐园，\n比如整个世界。\n\n对生命的思考有很多种姿态，\n激昂的演讲、深情的朗诵、机巧的笑话，\n或是左右张望、徘徊不前。\n面对生活的考验，\n我们允许审慎、允许愤怒、允许茫然，\n允许自己成为猴子，\n在求告无门时暂时屈从，在洞见不平时奋起反抗，在人声鼎沸中吃根香蕉。\n\n让《哈姆雷特》属于莎士比亚、猴子实验属于罗森鲍姆，\n而我们拥有打字机、小香肠、\nkkkkkkkkkkkkkkkkkk\n还有关于非洲大草原的遥远梦想。\n\n亲爱的小猴，\n生命是大冒险，世界是游乐园，\n祝你进化自由、退化自由、笑话自由。",
+          "en": "Any space can be a cage, a theatre—\nour minds, for instance.\nAny space can also be a laboratory, a playground—\nthe whole world, for instance.\n\nThere are many ways to contemplate life:\na passionate speech, a heartfelt recitation, a clever joke,\nor looking left and right, hovering without moving forward.\nFaced with life’s trials,\nwe allow ourselves caution, anger, bewilderment;\nwe allow ourselves to be monkeys:\nto yield for a while when no one answers our appeals,\nto rise in resistance when we recognise injustice,\nto eat a banana amid the clamour of voices.\n\nLet Hamlet belong to Shakespeare, and the monkey experiment to Rosenbaum.\nWe have our typewriters, our little sausages,\nkkkkkkkkkkkkkkkkkk\nand distant dreams of the African savanna.\n\nDear little monkey,\nlife is a great adventure; the world is a playground.\nMay you be free to evolve, free to devolve, free to joke."
+        },
+        "attribution": {
+          "zh": "——柳依依（Leah Liu）",
+          "en": "— Leah Liu (柳依依)"
+        }
       }
     ]
   },
