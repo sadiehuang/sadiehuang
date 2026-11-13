@@ -5,42 +5,32 @@ function prepareWordsProject(item) {
   item.wordsGalleryPrepared = true;
   item.images.push(...wordsProductionStills);
   const blocks = [];
-  let posterBlock;
   for (const block of item.article) {
+    if (block.figures?.includes('words-production-poster')) continue;
     if (block.kind === 'contribution') delete block.leadIn;
     blocks.push(block);
     const text = block.text?.en || '';
-    if (block.kind === 'contribution') blocks.push({figures:['words-trio'],layout:'words-stills words-opening-still'});
-    if (text.startsWith('The circus was my central concept')) blocks.push({figures:['words-stage'],layout:'words-stills words-set-still'});
+    if (block.kind === 'contribution') blocks.push({video:'words-backstage'});
+    if (text.startsWith('The circus was my central concept')) blocks.push({figures:['words-trio','words-stage'],layout:'words-stills words-set-pair'});
     if (text.startsWith('“Becoming a monkey”')) blocks.push({figures:['words-swift','words-motion'],layout:'words-stills words-action-pair'});
     if (text.startsWith('Kafka is a little monkey')) blocks.push({figures:['words-dialogue','words-kafka'],layout:'words-stills words-character-pair'});
-    if (block.figures?.includes('words-production-poster')) posterBlock = block;
   }
   item.article = blocks;
   item.videos = [{id:'words-backstage',src:'assets/theatre/words-backstage-v2.mp4',posterImage:'words-production-poster',coverAsButton:true,caption:{en:'A behind-the-scenes film from our production.',zh:'记录这次共同创作的幕后短片。'}}];
-  // Preserve the existing cover until the independently uploaded film is available.
-  if (posterBlock) fetch('../../assets/theatre/words-backstage-v2.mp4', {method:'HEAD',cache:'no-cache'})
-    .then(response => {
-      if (!response.ok || !response.headers.get('content-type')?.includes('video')) return;
-      delete posterBlock.figures;
-      posterBlock.video = 'words-backstage';
-      render();
-    }).catch(() => {});
   const style = document.createElement('style');
   style.textContent = `
     body[data-project="words"] .words-stills{margin:34px auto 44px;max-width:850px}
     body[data-project="words"] .words-stills figure{margin:0;max-width:none}
     body[data-project="words"] .words-stills figure.portrait-board{max-width:none}
     body[data-project="words"] .words-stills figcaption{display:none}
-    body[data-project="words"] .words-opening-still{margin:36px auto 54px;max-width:820px}
-    body[data-project="words"] .words-set-still{max-width:760px}
+    body[data-project="words"] .words-set-pair{grid-template-columns:1.501fr 1.334fr;gap:20px;align-items:center}
     body[data-project="words"] .words-action-pair{grid-template-columns:.666fr 1.23fr;gap:20px;align-items:center}
     body[data-project="words"] .words-character-pair{grid-template-columns:1.333fr 1.501fr;gap:20px;align-items:center}
     body[data-project="words"] .words-stills button{border-radius:5px;overflow:hidden}
     body[data-project="words"] .poster-film{margin-left:auto;margin-right:auto}
     @media(max-width:600px){
       body[data-project="words"] .words-stills{margin:28px auto 36px}
-      body[data-project="words"] .words-opening-still{margin-bottom:40px}
+      body[data-project="words"] .words-set-pair{grid-template-columns:1fr;gap:18px}
       body[data-project="words"] .words-action-pair{grid-template-columns:.666fr 1.23fr;gap:10px}
       body[data-project="words"] .words-character-pair{grid-template-columns:1fr;gap:18px}
     }
