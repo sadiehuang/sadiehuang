@@ -21,7 +21,7 @@ function render(){
   else if(block.text){const p=document.createElement('p');if(block.leadIn){const strong=document.createElement('strong');strong.textContent=block.leadIn[lang]+(lang==='zh'?'：':': ');p.append(strong,document.createTextNode(block.text[lang]))}else if(block.highlights?.[lang]){appendHighlightedText(p,block.text[lang],block.highlights[lang])}else p.textContent=block.text[lang];if(block.kind==='contribution')p.className='contribution-note';if(project.id==='silent'&&block.inlineLink){p.classList.add('project-introduction');p.replaceChildren();block.text[lang].split(/(nearly 500,000 followers|more than 200 videos|近 50 万粉丝|200 余条短视频)/).forEach((part,index)=>{if(index%2){const strong=document.createElement('strong');strong.textContent=part;p.append(strong)}else p.append(document.createTextNode(part))})}if(block.inlineLink){const a=document.createElement('a');a.className='intro-reference';a.href=block.inlineLink.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=block.inlineLink.label[lang];p.append(document.createTextNode(' '),a)}article.append(p)}
   else if(block.quote){const quote=document.createElement('blockquote');quote.className='production-reflection';block.quote[lang].split('\n\n').forEach(stanza=>{const p=document.createElement('p');p.textContent=stanza;quote.append(p)});if(block.attribution){const footer=document.createElement('footer');footer.textContent=block.attribution[lang];quote.append(footer)}article.append(quote)}
   else if(block.link){const a=document.createElement('a');a.className='project-reference';a.href=block.link.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=block.link.label[lang];article.append(a)}
-  else if(block.figures){const group=document.createElement('div');group.className='article-figures'+(block.figures.length>1?' article-figure-pair':'');block.figures.forEach(id=>{const item=project.images.find(i=>i.id===id);if(item)group.append(makeArticleFigure(item,lang))});article.append(group)}
+  else if(block.figures){const group=document.createElement('div');group.className='article-figures'+(block.figures.length>1?' article-figure-pair':'')+(block.layout?' '+block.layout:'');block.figures.forEach(id=>{const item=project.images.find(i=>i.id===id);if(item)group.append(makeArticleFigure(item,lang))});article.append(group)}
   else if(block.episodes){renderEpisodes(article,project.videos,lang)}
   else if(block.video){const item=project.videos.find(v=>v.id===block.video);if(item)article.append(makeProjectVideo(item,lang))}
   else if(block.image){const item=project.images.find(i=>i.src===block.image);if(item)article.append(makeProjectImage(item,lang))}
@@ -105,6 +105,7 @@ function makeCaseStudy(item,language){
 }
 
 function prepareProject(item){
+ if(item.id==='words' && typeof prepareWordsProject==='function')prepareWordsProject(item);
  if(item.id==='wuerli')item.videos=item.videos.filter(video=>video.id!=='rain');
  if(item.id!=='gagabang')return;
  item.images.forEach(image=>{if(image.id==='guide')image.crop=[.022,.008,.955,.765];if(image.id==='mbti')image.crop=[.025,.01,.943,.70]});
