@@ -376,3 +376,16 @@ body[data-project="silent"] .contribution-note{white-space:pre-line}
 /* Match the Douyin introduction to the film overview and separate the contribution. */
 body[data-project="silent"] .project-article>.project-introduction{color:var(--fg);margin-bottom:56px}
 body[data-project="silent"] .project-article>.project-introduction>strong{color:var(--accent);font-weight:700}
+body[data-project="words"] .project-article .inline-emphasis{color:var(--fg);font-weight:700}
+body[data-project="words"] .poster-film{margin:44px 0 48px}
+body[data-project="words"] .poster-film-cover{position:relative;max-width:360px;margin:0 auto;cursor:pointer;overflow:hidden;border-radius:8px;background:#000}
+body[data-project="words"] .poster-film-cover img{width:100%;height:auto;display:block}
+body[data-project="words"] .poster-film-play{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);width:max-content;max-width:90%;padding:12px 20px;border:1px solid #fff8;border-radius:30px;background:#111d;color:#fff;font-size:14px;line-height:1.4;box-shadow:0 3px 16px #0008}
+body[data-project="words"] .poster-film-cover:hover .poster-film-play{background:#fff;color:#111}
+body[data-project="words"] .poster-film figcaption{display:block;font-size:13px;color:var(--muted);line-height:1.65;text-align:center;max-width:600px;margin:14px auto 0}
+body[data-project="words"] .article-figures figure.portrait-board{max-width:360px}
+body[data-project="words"] .poster-film video{width:100%;aspect-ratio:16/9;object-fit:contain}
+body[data-project="words"] .production-reflection{border-left:2px solid var(--accent);margin:34px 0 48px;padding:4px 0 4px 26px;color:var(--muted)}
+body[data-project="words"] .production-reflection p{font-size:17px;line-height:1.95;white-space:pre-line;overflow-wrap:anywhere;margin:0 0 28px}
+body[data-project="words"] .production-reflection footer{display:block;border:0;padding:0;margin:0;font-size:14px;color:var(--fg)}
+@media(max-width:600px){body[data-project="words"] .poster-film-cover{max-width:300px}body[data-project="words"] .production-reflection{padding-left:18px}body[data-project="words"] .production-reflection p{font-size:16px;line-height:1.9}}
